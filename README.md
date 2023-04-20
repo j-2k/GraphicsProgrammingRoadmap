@@ -42,4 +42,11 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 
 ##### Miscellaneous
 - [MathIsFun.com Trigonometry](https://www.mathsisfun.com/algebra/trigonometry.html) For Learning Trigonometry.
-- Will probably add more stuff here, but I have to mention it's extremely important to find out what you want to do in life, specifically if it's graphics then what with graphics? Games Industry? Positions are Technical Artist/Shader Developer (Maybe even VFX position, dealing with particles & shaders), Graphics Engineer, Engine/Graphics Developer, Possibly even a research based position if you get really good & can land a place @ nvidia. Movies Industry? I don't really know/care about them, so I won't talk about it here.
+
+##### Final Notes
+Will probably add more stuff here, but I have to mention it's extremely important to find out what you want to do in life, specifically if it's graphics then what with graphics?<br>
+Games Industry? Positions that exist are:<br>
+- Technical Artist/Shader Developer (Maybe even VFX position, dealing with particles & shaders).
+- Graphics Engineer / Engine/Graphics Developer
+- Possibly even a research based position if you get really good & can land a place @ NVIDIA.
+Movies Industry? I don't really know/care about them, so I won't talk about it here.
