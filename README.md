@@ -42,6 +42,9 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 
 ##### Miscellaneous
 - [MathIsFun.com Trigonometry](https://www.mathsisfun.com/algebra/trigonometry.html) For Learning Trigonometry & can literally be used to learn everything in the prereqs & other math related topics that come later on in graphics.
+- Getting A Masters Degree in Computer Science with the final project (the thesis or dissertation whatever the place you choose calls it) based on something related to graphics. This note is for myself, because it sounds fun might do it. Ideas for final project could be a Minecraft Sim / a good raytracer / Voxel Engine & etc.
+<strong><i>A very nice example of a [voxel engine](https://www.youtube.com/watch?v=8ptH79R53c0) by [John Lin](https://github.com/Lin20)</i></strong>
+
 
 ##### Final Notes
 Will probably add more stuff here, but I have to mention it's extremely important to find out what you want to do in life, specifically if it's graphics then what with graphics?<br>
