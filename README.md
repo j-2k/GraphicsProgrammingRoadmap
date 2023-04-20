@@ -49,7 +49,7 @@ Games Industry? Positions that exist are:<br>
 - Technical Artist/Shader Developer (Maybe even VFX position, dealing with particles & shaders).
 - Graphics Engineer / Engine/Graphics Developer
 - Possibly even a research based position if you get really good & can land a place @ NVIDIA. <br>
-Adding this image for you to see more positions that a graphics dev can also work on alongside pursuing graphics.
-![alt text](gameprofessions-byhitmarker.png)
+Adding this image for you to see more positions that a graphics dev can also work on alongside pursuing graphics. This image was not made by me, credits go to people @ [hitmarker.net](https://hitmarker.net/).
+<img src="gameprofessions-byhitmarker.png"  width="100%" height="100%">
 
-Movies Industry? I don't really know/care about them, so I won't talk about it here. But I heard there are oppertunities over there also for graphics people.
+Movies Industry? I don't really know/care about them, so I won't talk about it here. But I heard there are opportunities over there also for graphics people.
