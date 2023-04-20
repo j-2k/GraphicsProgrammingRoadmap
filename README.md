@@ -25,6 +25,7 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 #### Prerequisites Resources
 - [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) Learning Linear Transformations - Probably the most important thing here.
 - [Cherno C++ Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) Chernos C++ Series for the pre-requisite section
+- [Scratchapixel](https://scratchapixel.com) Learn computer graphics topics & all math prerequisites.
 
 #### Main Roadmap Resources
 - [Beginner Computer Graphics Starter Guide](https://erkaman.github.io/posts/beginner_computer_graphics.html) Erkaman's guide on starting Computer Graphics.
