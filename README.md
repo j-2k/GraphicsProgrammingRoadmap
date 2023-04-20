@@ -28,8 +28,10 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 
 #### Main Roadmap Resources
 - [Beginner Computer Graphics Starter Guide](https://erkaman.github.io/posts/beginner_computer_graphics.html) Erkaman's guide on starting Computer Graphics.
-- [Art of Code Youtube Channel](https://www.youtube.com/@TheArtofCodeIsCool)For learning & Writing better shaders using GLSL on Shadertoy (Easily transferable to HLSL/CG).
+- [Art of Code Youtube Channel](https://www.youtube.com/@TheArtofCodeIsCool) For learning & Writing better shaders using GLSL on Shadertoy (Easily transferable to HLSL/CG).
 - [Cherno Raytracing Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98edc5GshdBtREv5asFW3yXl) Cherno Raytracing Guide that im following.
 - [Raytracing in 1 Weekend](https://raytracing.github.io) Infamous book for learning raytracing.
 - [Scratchapixel](https://scratchapixel.com) Learn computer graphics topics & all math prerequisites.
 - [ssloy](https://github.com/ssloy) More guides about CG topics from ssloy
+- [Cherno OpenGL Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2) Learn OpenGL from Chernos OpenGL Series (Probably really old but whatever)
+- [Vulkan Game Engine Tutorials](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR) Learn Vulkan from Brendan Galea (Optional choice to OpenGL with the benefit that its more updated & its a better graphics specialization, however is difficult for beginners)
