@@ -51,7 +51,8 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 Will probably add more stuff here, but I have to mention it's extremely important to find out what you want to do in life, specifically if it's graphics then what with graphics?<br>
 Games Industry? Positions that exist are:<br>
 - Technical Artist/Shader Developer (Maybe even VFX position, dealing with particles & shaders).
-- Graphics Engineer / Engine/Graphics Developer
+- Graphics Engineer / Engine & Graphics Developer. <br>
+(These are the main positions I look for, many other positions also exist just check the image below by hitmarker.)
 - Possibly even a research based position if you get really good & can land a place @ NVIDIA. <br>
 Adding this image for you to see more positions that a graphics dev can also work on alongside pursuing graphics. This image was not made by me, credits go to people @ [hitmarker.net](https://hitmarker.net/).
 <img src="gameprofessions-byhitmarker.png"  width="100%" height="100%">
