@@ -18,7 +18,9 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 + Lighting
 + Water Shader
 + Any Post Processing Effects (Motion blur / Ambient Occlusion / Depth of Field / etc.)
-+ Multithreading / GPU-Acceleration
++ Multithreading / GPU-Acceleration <br>
+
+<strong><i>Example of an extremely good [Minecraft Sim](https://www.youtube.com/watch?v=M98Th82wC7c) by Danol</i></strong>
 
 ## Resources
 
