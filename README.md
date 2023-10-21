@@ -9,12 +9,13 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 3. C++
 
 ## Main Roadmap for myself:
-1. Write a raytracer.
-2. Learn OpenGL.
-3. Create OpenGL project & Render 1 Mesh with lighting.
-4. [Optional/Always] Get better with OpenGL & Writing Shaders (HLSL/GLSL/CG).
-5. [Final] Create Minecraft Simulator with OpenGL.
-6. [Extras] Extend the Minecraft Sim to feature the following/any:
+1. Write a software raytracer.
+2. Write a software rasterizer.
+3. Learn OpenGL.
+4. Create OpenGL project & Render 1 Mesh with lighting.
+5. [Optional/Always] Get better with OpenGL & Writing Shaders (HLSL/GLSL/CG).
+6. [Final] Create Minecraft Simulator with OpenGL.
+7. [Extras] Extend the Minecraft Sim to feature the following/any:
 + Lighting
 + Water Shader
 + Any Post Processing Effects (Motion blur / Ambient Occlusion / Depth of Field / etc.)
@@ -23,9 +24,15 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 <strong><i>Example of an extremely good [Minecraft Sim](https://www.youtube.com/watch?v=M98Th82wC7c) by [Danol](https://github.com/CZDanol)</i></strong>
 
 ## Resources
-
 #### Prerequisites Resources
-- [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) Learning Linear Transformations - Probably the most important thing here.
+
+***Prerequisite Note:***  
+*Learn the Math it's the one and only thing important, especially when it comes to graphics programming.*  
+*If "Person A" knew so much C++ but didn't know much of the math in graphics & "Person B" ONLY knew the math but no C++ "Person B" would fly through graphics.*  
+*👋 Good luck on becoming a graphics engineer.*
+
+- [Immersive Mathemathics](https://immersivemath.com/ila/index.html#), Learn math needed through a website that shows mathematics in an immersive 3D environment.
+- [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) Learning Linear Transformations, & see how they move in space via video (3blue1brown).
 - [Cherno C++ Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) Chernos C++ Series for the pre-requisite section
 - [Scratchapixel](https://scratchapixel.com) Learn computer graphics topics & all math prerequisites.
 
