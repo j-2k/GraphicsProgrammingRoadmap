@@ -47,6 +47,7 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 - [Vulkan Game Engine Tutorials](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR) Learn Vulkan from Brendan Galea (Optional choice to OpenGL with the benefit that its more updated & its a better graphics specialization, however is difficult for beginners)
 
 #### Extras
+- [Catlike Coding](https://catlikecoding.com/unity/tutorials/) Probably the best shader tutorials out there. It's a crime that I forgot to put this in.
 - [Graphics Programming Github Page](https://graphics-programming.org/resources/) Made up from people of the Graphics Programming Discord Server.
 - [LearnDXD11](https://graphicsprogramming.github.io/learnd3d11/1-introduction/1-1-getting-started/1-1-3-hello-triangle/) Learn DirectX11, same authors as above link.
 - [Big Randy Resources (Not just Graphics)](https://github.com/bigrando420/resources/wiki) Big Randy's resources are actually pretty good too.
