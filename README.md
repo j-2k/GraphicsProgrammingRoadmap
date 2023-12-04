@@ -45,6 +45,7 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 - [ssloy](https://github.com/ssloy) More guides about CG topics from ssloy
 - [Cherno OpenGL Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2) Learn OpenGL from Chernos OpenGL Series (Probably really old but whatever)
 - [Vulkan Game Engine Tutorials](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR) Learn Vulkan from Brendan Galea (Optional choice to OpenGL with the benefit that its more updated & its a better graphics specialization, however is difficult for beginners)
+- [Real Time Rendering](https://realtimerendering.com/) Core book for Real-Time Graphics
 
 #### Extras
 - [Catlike Coding](https://catlikecoding.com/unity/tutorials/) Probably the best shader tutorials out there. It's a crime that I forgot to put this in.
