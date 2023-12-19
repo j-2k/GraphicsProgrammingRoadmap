@@ -9,16 +9,24 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 3. C++
 
 ## Main Roadmap for myself:
-1. Write a software raytracer.
-2. Write a software rasterizer.
-3. Learn OpenGL.
-4. Create OpenGL project & Render 1 Mesh with lighting.
-5. [Optional/Always] Get better with OpenGL & Writing Shaders (HLSL/GLSL/CG).
-6. [Final] Create Minecraft Simulator with OpenGL.
-7. [Extras] Extend the Minecraft Sim to feature the following/any:
-+ Lighting
-+ Water Shader
-+ Any Post Processing Effects (Motion blur / Ambient Occlusion / Depth of Field / etc.)
+#### (in brackets will mark a resource I chose to follow & learn with)
+Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
+1. Write a software raytracer. ✔️ (Cherno Raytracing Series) 
+2. Write a software rasterizer. ❌ (SSloy Tiny rasterizer)
+3. The Triangle stage, use OpenGL. ❌
+4. Create a project with the Graphics API of choice (OpenGL, Vulkan, or DX12) & Render 1 Mesh with lighting. ❌
+
+By here we are done technically, & now we just have to be passionate & make something or explore other topics such as:  
+PBR (Physically Based Rendering).   
+PPFX (Post Processing Effects like AO (Ambient Occlusion)).  
+Shaders (Ray-marching fun or Fast Fourier transform for insane water).  
+This can go on forever but by here we can do whatever as long as we are learning, I personally, will have my next steps below.  
+
+#### Fun Section (How I will be continuing)  
+5. Create a graphics-focused Minecraft Sim with any Graphics API.  
+6. [Extras] Extend the Minecraft Sim to feature the following/any:  
++ Lighting & Water Shader
++ Any Post Processing Effects (Motion blur / Ambient Occlusion / Depth of Field / Bloom / etc.)
 + Multithreading / GPU-Acceleration <br>
 
 <strong><i>Example of an extremely good [Minecraft Sim](https://www.youtube.com/watch?v=M98Th82wC7c) by [Danol](https://github.com/CZDanol)</i></strong>
