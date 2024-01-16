@@ -1,7 +1,9 @@
 # My Computer Graphics Programming Roadmap
 This is a project with the sole purpose of containing learning resources & reminding myself of what I need to learn in order to become a graphics engineer, if you plan to use this for yourself, please read all of it since I sprinkle some random resources at the very end that might help you at the early stages even!  
 
-I might also make the same thing on my [Website](https://j-2k.github.io).
+I might also make the same thing on my [Website](https://j-2k.github.io).  
+
+Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 
 ## Main Roadmap for myself:
 #### (in brackets will mark a resource I chose to follow & learn with)
@@ -93,7 +95,7 @@ Here the list will deviate, & you have to do whatever you enjoy and essentially 
 - [Kishimisu Youtube Channel](https://www.youtube.com/@kishimisu) Mainly this is for people that are BRAND-NEW to shaders & want to learn in video rather than text, Kishi has great quality videos.
 
 #### Dive Deep into Computer Graphics (Advanced)
-- [Infamouse PBR Book](https://pbr-book.org/) Physically Based Rendering Book
+- [Infamous PBR Book](https://pbr-book.org/) Physically Based Rendering Book
 - [Real Time Rendering](https://realtimerendering.com/) Core book for Real-Time Graphics
 
 #### Extras
