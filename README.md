@@ -8,10 +8,10 @@ Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 ## Main Roadmap for myself:
 #### (in brackets will mark a resource I chose to follow & learn with)
 Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
-1. Write a software raytracer. ✔️ (Cherno Raytracing Series) 
-2. Write a software rasterizer. ⌛ (SSloy Tiny rasterizer)
-3. The Triangle stage, use OpenGL. ❌
-4. Create a project with the Graphics API of choice (OpenGL, Vulkan, or DX12) & Render 1 Mesh with lighting. ❌
+1. Write a software raytracer. ✔️ (Cherno Raytracing Series)  
+2. Write a software rasterizer. ⌛ (SSloy Tiny rasterizer)  
+3. Write a Hello World Triangle. ❌(Use a graphics specialization!)  
+4. Create a project with the Graphics API of choice (OpenGL, Vulkan, or DX12) & Render 1 Mesh with lighting. ❌  
 
 By here we are done technically, & now we just have to be passionate & make something or explore other topics such as:  
 PBR (Physically Based Rendering).   
