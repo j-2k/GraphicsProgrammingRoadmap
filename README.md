@@ -5,6 +5,13 @@ I might also make the same thing on my [Website](https://j-2k.github.io).
 
 Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 
+Alternative really good roadmaps in order  
+https://github.com/prographon/graphics-developer-roadmap  
+
+(general games/graphics roadmaps)  
+https://github.com/miloyip/game-programmer  
+https://roadmap.sh/game-developer
+
 ## Main Roadmap for myself:
 #### (in brackets will mark a resource I chose to follow & learn with)
 Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
