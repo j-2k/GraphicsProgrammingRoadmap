@@ -89,8 +89,12 @@ Again! Try to guess what this formula is being used in! Spoilers below!
 
 <details>
   <summary>Click here to reveal the answer!</summary>
-  Dot Product! $$\large\mathbf{a} \cdot \mathbf{b} = \sum_{i=1}^{n} a_i b_i $$
+  Dot Product!  Images from Google & Nvidia CG
+
+  <img src="imgs/dotprod.google.png"> <img src="imgs/dotprod.nvidiacg.png" width=50%>
 </details>
+
+
 
 $$ \large ? = \sum_{i=1}^{n} a_i b_i $$
 
@@ -98,12 +102,12 @@ $$ \large ? = \sum_{i=1}^{n} a_i b_i $$
 # <a name="graphics">Graphics Roadmap</a>
 ***START OF THE GRAPHICS ROADMAP, THE ORDER IS IMPORTANT & IT'S OKAY TO DEVIATE BUT NOT TOO FAR FROM EACH INDEX.***
 
-#### <a name="ga0">0. Graphics Advice</a>
+## <a name="ga0">0. Graphics Advice</a>
 *You can skip this as I list my resources in order according to many sources when it comes to learning CG*
 - [Beginner Computer Graphics Starter Guide](https://erkaman.github.io/posts/beginner_computer_graphics.html) Erkaman's guide on starting Computer Graphics.
 - [Graphics Programming Github Page](https://graphics-programming.org/resources/) Made up from people of the Graphics Programming Discord Server.
 
-#### <a name="m&c1">1. Math & C++ (Prerequisite Resources!)</a>
+# <a name="m&c1">1. Math & C++ (Prerequisite Resources!)</a>
 *As I said previously, math is THE most important section of all graphics, Good Luck!*  
 Learn these 3 topics > Linear Algebra, Trigonometry, C++.
 - [MathIsFun.com Trigonometry](https://www.mathsisfun.com/algebra/trigonometry.html) For Learning Trigonometry & MathIsFun can be used to learn almost everything needed!
@@ -113,7 +117,10 @@ Learn these 3 topics > Linear Algebra, Trigonometry, C++.
 - [Learn CPP Website](https://www.learncpp.com) Learn C++ website, literally everything covered (Reading Format)
 - [Scratchapixel](https://scratchapixel.com) You can learn all math prerequisites in here (Geometry Section) & other computer graphics topics!
 
-#### <a name="raytracing2">2. Raytracing</a>
+# <a name="raytracing2">2. Raytracing</a>
+
+<img src="imgs/rt.diagram.wiki.png" width=31%> <img src="imgs/rt.wiki.png" width=31%> <img src="imgs/rt.myrt.png" width=31%>
+
 First graphics project will be simple raytracing! **(Basically 1 math formula, understand it!)**   
 All resources below will cover the math & implementation, pick your poison.  
 - [Cherno Raytracing Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98edc5GshdBtREv5asFW3yXl) (REAL TIME RAYTRACER) Cherno Raytracing Guide that im following.
@@ -187,8 +194,8 @@ Adding this image for you to see more positions that a graphics dev can also wor
 
 Movies Industry? I don't really know/care about them, so I won't talk about it here. But I heard there are opportunities over there also for graphics people.
 
-<a name="juma"></a>
-## My progress & chosen resources for graphics! (Not important, you can skip)
+
+## <a name="juma">My progress & chosen resources for graphics! (Not important, you can skip)</a>
 #### (in brackets will mark a resource I chose to follow & learn with)
 Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
 1. Write a software raytracer. ✔️ (Cherno Raytracing Series)  
