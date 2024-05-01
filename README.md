@@ -3,6 +3,8 @@ This project's sole purpose is for me to remind myself of what I need to do in o
 
 ***VERY IMPORTANT NOTE! Since this repository is gaining some stars, I feel the need to address the fact that this roadmap is how I plan to venture through graphics programming AS A LEARNER, I AM NOT an already established expert in the field! So for this reason you might actually prefer this over other roadmaps as we are both learners(?)! Anyways these graphics roadmaps are pretty much very close/the same.***
 
+In order to not waste your time, I want to say that graphics is heavy in mathematics & computer science, and is very punishing to people that dont bother with the math! If you are a person that hates & doesn't like math, then graphics engineering probably isn't for you, but if you like math but see it as difficult you can become a graphics engineer with enough effort! Additionally later on if you dont like graphics engineering anymore & want to do something still related but is more lenient in the math section, you can become a technical artist instead! (This role is still challenging but much more fun!) Technical Artist roadmap when? I will maybe make one later...
+
 Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 
 **Alternative really good graphics developer roadmap:**
@@ -15,50 +17,27 @@ Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 - https://roadmap.sh/game-developer
 
 # Contents
-0. [Roadmap Start & Graphics Advice](#resources0) 
+- [Pre-Roadmap advice from me as a learner!](#pregraphics) My honest advice, I suggest you read if you are new to graphics!
+0. [Roadmap start & Graphics advice from professionals](#graphics) 
 1. [Math & C++](#m&c1)
 2. [Raytracing](#raytracing2)
 3. [Software Renderer](#rasterizer3)
 4. [Graphics Specialization](#gfxspec4)
 5. [Diving Deep](#dd5)
-6. [Miscellaneous Notes](#mn6)
+6. [Miscellaneous Notes & Life Advice](#mn6)
+7. [My personal progression with graphics!](#juma)
 
-## My progress & chosen resources for graphics! (You can skip this part!)
-#### (in brackets will mark a resource I chose to follow & learn with)
-Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
-1. Write a software raytracer. ✔️ (Cherno Raytracing Series)  
-2. Write a software rasterizer. ✔️ (SSloy Tiny rasterizer, 90% Done)  
-3. Write a Hello World Triangle. ❌ (Use a graphics specialization!)  
-4. Create a project with the Graphics API of choice (OpenGL, Vulkan, or DX12) & Render 1 Mesh with lighting. ❌  
+# <a name="pregraphics">Pre-Roadmap honest advice!</a>
 
-#### By here we are done technically, & now we just have to be passionate & make something or explore other topics such as:  
-- PBR (Physically Based Rendering).   
-- PPFX (Post Processing Effects like AO (Ambient Occlusion)).  
-- Shaders (Ray-marching fun or Fast Fourier transforms for insane water).  
-- This can go on forever but by here we can do whatever as long as we are learning, I personally, will have my next steps below.  
-
-#### Fun Section (How I will be continuing)  
-5. Create a graphics-focused Minecraft Sim with any Graphics API.  
-6. [Extras] Extend the Minecraft Sim to feature the following/any:  
-+ Lighting & Water Shader
-+ Any Post Processing Effects (Motion blur / Ambient Occlusion / Depth of Field / Bloom / etc.)
-+ Multithreading / GPU-Acceleration <br>
-
-<strong><i>Example of an extremely good [Minecraft Sim](https://www.youtube.com/watch?v=M98Th82wC7c) by [Danol](https://github.com/CZDanol)</i></strong>
-
-# <a name="resources0">Graphics Roadmap</a>
-
-**Prerequisite Note:** 
-- **If you already know C++ & the math required for graphics, skip to [section 2](#raytracing2), if you don't continue below.**  
 - Firstly, *Learn the Math it's the one and only thing important, especially when it comes to graphics programming. Even more so than C++.* Learn it to the point where you can understand almost exactly what is happening, because if you do, you will have an easier time in everything, from problem-solving to debugging, & etc, especially in the future.
 
 *If you are not interested in my personal advice before starting graphics engineering (I suggest you continue reading since I am a learner like you!), skip to the graphics advice of professionals by clicking [here](ga0) or start the graphics pre-requisites section by clicking [here](m&c1).*
 
 ---
 
-**My personal & honest advice as a learner to new comers!** 
+**Advice from me after I did some graphics projects!** 
   
-- Even though I mentioned learn math, I mean seriously take math to the next level. Additonally, slowly try to learn some math notation when you are bored, since graphics concepts (especially on wikipedia) are mostly shown in ugly and scary math symbols. Example: Do you know what sigma or product do & what they look like? What does the cross product and dot product do/look like? Integrals??? Rendering equation?!?!? What the fuck is Calculus??? 🗣🗣🗣🔥🔥🔥
+- After doing some graphics, I realized math is insane and beautiful... and *really* fucking hard. Additonally, slowly try to learn some math notation when you are bored, since graphics concepts (especially on wikipedia) are mostly shown in ugly and scary math symbols. Example: Do you know what sigma or product do & what they look like? What does the cross product and dot product do/look like? Integrals??? Rendering equation?!?!? What the fuck is Calculus??? 🗣🗣🗣🔥🔥🔥
 
 ---
 
@@ -116,7 +95,7 @@ Again! Try to guess what this formula is being used in! Spoilers below!
 $$ \large ? = \sum_{i=1}^{n} a_i b_i $$
 
 ---
-
+# <a name="graphics">Graphics Roadmap</a>
 ***START OF THE GRAPHICS ROADMAP, THE ORDER IS IMPORTANT & IT'S OKAY TO DEVIATE BUT NOT TOO FAR FROM EACH INDEX.***
 
 #### <a name="ga0">0. Graphics Advice</a>
@@ -125,6 +104,7 @@ $$ \large ? = \sum_{i=1}^{n} a_i b_i $$
 - [Graphics Programming Github Page](https://graphics-programming.org/resources/) Made up from people of the Graphics Programming Discord Server.
 
 #### <a name="m&c1">1. Math & C++ (Prerequisite Resources!)</a>
+*As I said previously, math is THE most important section of all graphics, Good Luck!*  
 Learn these 3 topics > Linear Algebra, Trigonometry, C++.
 - [Immersive Mathemathics](https://immersivemath.com/ila/index.html#), Learn math needed through a website that shows mathematics in an immersive 3D environment.
 - [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) Learning Linear Transformations, & see how they move in space via video (3blue1brown).
@@ -205,3 +185,27 @@ Adding this image for you to see more positions that a graphics dev can also wor
 <img src="gameprofessions-byhitmarker.png"  width="100%" height="100%">
 
 Movies Industry? I don't really know/care about them, so I won't talk about it here. But I heard there are opportunities over there also for graphics people.
+
+<a name="juma"></a>
+## My progress & chosen resources for graphics! (Not important, you can skip)
+#### (in brackets will mark a resource I chose to follow & learn with)
+Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
+1. Write a software raytracer. ✔️ (Cherno Raytracing Series)  
+2. Write a software rasterizer. ✔️ (SSloy Tiny rasterizer, 90% Done)  
+3. Write a Hello World Triangle. ❌ (Use a graphics specialization!)  
+4. Create a project with the Graphics API of choice (OpenGL, Vulkan, or DX12) & Render 1 Mesh with lighting. ❌  
+
+#### By here we are done technically, & now we just have to be passionate & make something or explore other topics such as:  
+- PBR (Physically Based Rendering).   
+- PPFX (Post Processing Effects like AO (Ambient Occlusion)).  
+- Shaders (Ray-marching fun or Fast Fourier transforms for insane water).  
+- This can go on forever but by here we can do whatever as long as we are learning, I personally, will have my next steps below.  
+
+#### Fun Section (How I will be continuing)  
+5. Create a graphics-focused Minecraft Sim with any Graphics API.  
+6. [Extras] Extend the Minecraft Sim to feature the following/any:  
++ Lighting & Water Shader
++ Any Post Processing Effects (Motion blur / Ambient Occlusion / Depth of Field / Bloom / etc.)
++ Multithreading / GPU-Acceleration <br>
+
+<strong><i>Example of an extremely good [Minecraft Sim](https://www.youtube.com/watch?v=M98Th82wC7c) by [Danol](https://github.com/CZDanol)</i></strong>
