@@ -106,6 +106,7 @@ $$ \large ? = \sum_{i=1}^{n} a_i b_i $$
 #### <a name="m&c1">1. Math & C++ (Prerequisite Resources!)</a>
 *As I said previously, math is THE most important section of all graphics, Good Luck!*  
 Learn these 3 topics > Linear Algebra, Trigonometry, C++.
+- [MathIsFun.com Trigonometry](https://www.mathsisfun.com/algebra/trigonometry.html) For Learning Trigonometry & can be used to learn almost everything needed!
 - [Immersive Mathemathics](https://immersivemath.com/ila/index.html#), Learn math needed through a website that shows mathematics in an immersive 3D environment.
 - [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) Learning Linear Transformations, & see how they move in space via video (3blue1brown).
 - [Cherno C++ Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) Chernos C++ Series for the pre-requisite section (Video Format)
