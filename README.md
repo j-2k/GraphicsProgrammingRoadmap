@@ -1,29 +1,40 @@
 # My Computer Graphics Programming Roadmap
-This is a project with the sole purpose of containing learning resources & reminding myself of what I need to learn in order to become a graphics engineer, if you plan to use this for yourself, please read all of it since I sprinkle some random resources at the very end that might help you at the early stages even!  
+This project's sole purpose is for me to remind myself of what I need to do in order to become a graphics engineer. If you plan to use this for yourself please take some time to read the sections of each stage in this graphics programming roadmap, to make sure it fits with what you want to do! ~~I might also make the same roadmap on my [Website](https://j-2k.github.io) WIP.~~
 
-I might also make the same thing on my [Website](https://j-2k.github.io).  
+***VERY IMPORTANT NOTE! Since this repository is gaining some stars, I feel the need to address the fact that this roadmap is how I plan to venture through graphics programming AS A LEARNER, I AM NOT an already established expert in the field! So for this reason you might actually prefer this over other roadmaps as we are both learners(?)! Anyways these graphics roadmaps are pretty much very close/the same.***
 
 Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 
-Alternative really good roadmaps in order  
-https://github.com/prographon/graphics-developer-roadmap  
+**Alternative really good graphics developer roadmap:**
+- https://github.com/prographon/graphics-developer-roadmap
 
-(general games/graphics roadmaps)  
-https://github.com/miloyip/game-programmer  
-https://roadmap.sh/game-developer
+<br>
 
-## Main Roadmap for myself:
+**General game programming roadmap with many additional specializations (graphics, multiplayer, etc):**
+- https://github.com/miloyip/game-programmer  
+- https://roadmap.sh/game-developer
+
+# Contents
+1. [Resources](#resources1)
+2. b
+3. c
+4. d
+5. e
+6. f
+7. g
+
+# Main Roadmap for myself:
 #### (in brackets will mark a resource I chose to follow & learn with)
 Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
 1. Write a software raytracer. ✔️ (Cherno Raytracing Series)  
-2. Write a software rasterizer. ⌛ (SSloy Tiny rasterizer)  
-3. Write a Hello World Triangle. ❌(Use a graphics specialization!)  
+2. Write a software rasterizer. ✔️ (SSloy Tiny rasterizer, 90% Done)  
+3. Write a Hello World Triangle. ❌ (Use a graphics specialization!)  
 4. Create a project with the Graphics API of choice (OpenGL, Vulkan, or DX12) & Render 1 Mesh with lighting. ❌  
 
 By here we are done technically, & now we just have to be passionate & make something or explore other topics such as:  
 PBR (Physically Based Rendering).   
 PPFX (Post Processing Effects like AO (Ambient Occlusion)).  
-Shaders (Ray-marching fun or Fast Fourier transform for insane water).  
+Shaders (Ray-marching fun or Fast Fourier transforms for insane water).  
 This can go on forever but by here we can do whatever as long as we are learning, I personally, will have my next steps below.  
 
 #### Fun Section (How I will be continuing)  
@@ -35,7 +46,7 @@ This can go on forever but by here we can do whatever as long as we are learning
 
 <strong><i>Example of an extremely good [Minecraft Sim](https://www.youtube.com/watch?v=M98Th82wC7c) by [Danol](https://github.com/CZDanol)</i></strong>
 
-# Resources
+# <a name="resources1">Resources</a>
 
 ***Prerequisite Note:***  
 *Learn the Math it's the one and only thing important, especially when it comes to graphics programming.*  
