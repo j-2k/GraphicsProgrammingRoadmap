@@ -15,7 +15,7 @@ Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 - https://roadmap.sh/game-developer
 
 # Contents
-0. [Resources & Graphics Advice](#resources0) 
+0. [Roadmap Start & Graphics Advice](#resources0) 
 1. [Math & C++](#m&c1)
 2. [Raytracing](#raytracing2)
 3. [Software Renderer](#rasterizer3)
@@ -23,7 +23,7 @@ Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 5. [Diving Deep](#dd5)
 6. [Miscellaneous Notes](#mn6)
 
-# Main Roadmap for myself:
+## My progress & chosen resources for graphics! (You can skip this part!)
 #### (in brackets will mark a resource I chose to follow & learn with)
 Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
 1. Write a software raytracer. ✔️ (Cherno Raytracing Series)  
@@ -31,7 +31,7 @@ Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
 3. Write a Hello World Triangle. ❌ (Use a graphics specialization!)  
 4. Create a project with the Graphics API of choice (OpenGL, Vulkan, or DX12) & Render 1 Mesh with lighting. ❌  
 
-By here we are done technically, & now we just have to be passionate & make something or explore other topics such as:  
+#### By here we are done technically, & now we just have to be passionate & make something or explore other topics such as:  
 - PBR (Physically Based Rendering).   
 - PPFX (Post Processing Effects like AO (Ambient Occlusion)).  
 - Shaders (Ray-marching fun or Fast Fourier transforms for insane water).  
@@ -46,15 +46,80 @@ By here we are done technically, & now we just have to be passionate & make some
 
 <strong><i>Example of an extremely good [Minecraft Sim](https://www.youtube.com/watch?v=M98Th82wC7c) by [Danol](https://github.com/CZDanol)</i></strong>
 
-# <a name="resources0">Resources</a>
+# <a name="resources0">Graphics Roadmap</a>
 
-***Prerequisite Note:***  
-*Learn the Math it's the one and only thing important, especially when it comes to graphics programming.*  
-*If "Person A" knew so much C++ but didn't know much of the math in graphics & "Person B" ONLY knew the math but no C++ "Person B" would fly through graphics.*  
-*👋 Good luck on becoming a graphics engineer.*  
-***THE ORDER IS IMPORTANT, ITS OKAY TO DEVIATE BUT NOT TOO FAR FROM EACH INDEX.***
+**Prerequisite Note:** 
+- **If you already know C++ & the math required for graphics, skip to [section 2](#raytracing2), if you don't continue below.**  
+- Firstly, *Learn the Math it's the one and only thing important, especially when it comes to graphics programming. Even more so than C++.* Learn it to the point where you can understand almost exactly what is happening, because if you do, you will have an easier time in everything, from problem-solving to debugging, & etc, especially in the future.
 
-#### 0. Graphics Advice
+*If you are not interested in my personal advice before starting graphics engineering (I suggest you continue reading since I am a learner like you!), skip to the graphics advice of professionals by clicking [here](ga0) or start the graphics pre-requisites section by clicking [here](m&c1).*
+
+---
+
+**My personal & honest advice as a learner to new comers!** 
+  
+- Even though I mentioned learn math, I mean seriously take math to the next level. Additonally, slowly try to learn some math notation when you are bored, since graphics concepts (especially on wikipedia) are mostly shown in ugly and scary math symbols. Example: Do you know what sigma or product do & what they look like? What does the cross product and dot product do/look like? Integrals??? Rendering equation?!?!? What the fuck is Calculus??? 🗣🗣🗣🔥🔥🔥
+
+---
+
+Jokes aside, here are some answers to the previous questions:
+
+$$\LARGE \sum_{sigma}^{im} | \prod_{product}^{im} | \int_{integral}^{im}$$
+
+$$\LARGE Rendering \ Equation\Rightarrow  L_o(\mathbf{x}, \omega_o) = L_e(\mathbf{x}, \omega_o) + \int_\Omega f_r(\mathbf{x}, \omega_i, \omega_o) L_i(\mathbf{x}, \omega_i) (\omega_i \cdot \mathbf{n}) \, d\omega_i$$
+
+---
+
+*An example of what you will see on wikipedia! (Literally STOLEN from wikipedia btw!)*  
+Try to guess what this is if you have done some game development previously! Spoilers below!  
+<details>
+  <summary>Click here to reveal the answer!</summary>
+  Rotation Matrix! Rotating around Z then Y then X!
+</details>
+
+$$ \LARGE
+R = R_{z}(\gamma) \, R_{y}(\beta) \, R_{x}(\alpha) =
+\begin{bmatrix}
+    \cos \gamma & -\sin \gamma & 0 \\
+    \sin \gamma & \cos \gamma & 0 \\
+    0 & 0 & 1 \\
+\end{bmatrix}
+\begin{bmatrix}
+    \cos \beta & 0 & \sin \beta \\
+    0 & 1 & 0 \\
+    -\sin \beta & 0 & \cos \beta \\
+\end{bmatrix}
+\begin{bmatrix}
+    1 & 0 & 0 \\
+    0 & \cos \alpha & -\sin \alpha \\
+    0 & \sin \alpha & \cos \alpha \\
+\end{bmatrix} $$
+
+$$ \LARGE
+= \begin{bmatrix}
+    \cos \beta \cos \gamma & \sin \alpha \sin \beta \cos \gamma - \cos \alpha \sin \gamma & \cos \alpha \sin \beta \cos \gamma + \sin \alpha \sin \gamma \\
+    \cos \beta \sin \gamma & \sin \alpha \sin \beta \sin \gamma + \cos \alpha \cos \gamma & \cos \alpha \sin \beta \sin \gamma - \sin \alpha \cos \gamma \\
+    -\sin \beta & \sin \alpha \cos \beta & \cos \alpha \cos \beta \\
+\end{bmatrix} 
+$$
+
+---
+
+*An example of Sigma being used, in a VERY popular math operation! (Literally STOLEN from Google btw!)*  
+Again! Try to guess what this formula is being used in! Spoilers below!  
+
+<details>
+  <summary>Click here to reveal the answer!</summary>
+  Dot Product! $$\LARGE\mathbf{a} \cdot \mathbf{b} = \sum_{i=1}^{n} a_i b_i $$
+</details>
+
+$$ \LARGE ? = \sum_{i=1}^{n} a_i b_i $$
+
+---
+
+***START OF THE GRAPHICS ROADMAP, THE ORDER IS IMPORTANT & IT'S OKAY TO DEVIATE BUT NOT TOO FAR FROM EACH INDEX.***
+
+#### <a name="ga0">0. Graphics Advice</a>
 *You can skip this as I list my resources in order according to many sources when it comes to learning CG*
 - [Beginner Computer Graphics Starter Guide](https://erkaman.github.io/posts/beginner_computer_graphics.html) Erkaman's guide on starting Computer Graphics.
 - [Graphics Programming Github Page](https://graphics-programming.org/resources/) Made up from people of the Graphics Programming Discord Server.
