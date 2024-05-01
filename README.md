@@ -15,13 +15,13 @@ Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 - https://roadmap.sh/game-developer
 
 # Contents
-1. [Resources](#resources1)
-2. b
-3. c
-4. d
-5. e
-6. f
-7. g
+0. [Resources & Graphics Advice](#resources0) 
+1. [Math & C++](#m&c1)
+2. [Raytracing](#raytracing2)
+3. [Software Renderer](#rasterizer3)
+4. [Graphics Specialization](#gfxspec4)
+5. [Diving Deep](#dd5)
+6. [Miscellaneous Notes](#mn6)
 
 # Main Roadmap for myself:
 #### (in brackets will mark a resource I chose to follow & learn with)
@@ -46,7 +46,7 @@ This can go on forever but by here we can do whatever as long as we are learning
 
 <strong><i>Example of an extremely good [Minecraft Sim](https://www.youtube.com/watch?v=M98Th82wC7c) by [Danol](https://github.com/CZDanol)</i></strong>
 
-# <a name="resources1">Resources</a>
+# <a name="resources0">Resources</a>
 
 ***Prerequisite Note:***  
 *Learn the Math it's the one and only thing important, especially when it comes to graphics programming.*  
@@ -59,7 +59,7 @@ This can go on forever but by here we can do whatever as long as we are learning
 - [Beginner Computer Graphics Starter Guide](https://erkaman.github.io/posts/beginner_computer_graphics.html) Erkaman's guide on starting Computer Graphics.
 - [Graphics Programming Github Page](https://graphics-programming.org/resources/) Made up from people of the Graphics Programming Discord Server.
 
-#### 1. Math & C++ (Prerequisite Resources!)
+#### <a name="m&c1">1. Math & C++ (Prerequisite Resources!)</a>
 Learn these 3 topics > Linear Algebra, Trigonometry, C++.
 - [Immersive Mathemathics](https://immersivemath.com/ila/index.html#), Learn math needed through a website that shows mathematics in an immersive 3D environment.
 - [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) Learning Linear Transformations, & see how they move in space via video (3blue1brown).
@@ -67,7 +67,7 @@ Learn these 3 topics > Linear Algebra, Trigonometry, C++.
 - [Learn CPP Website](https://www.learncpp.com) Learn C++ website, literally everything covered (Reading Format)
 - [Scratchapixel](https://scratchapixel.com) You can learn all math prerequisites in here (Geometry Section) & other computer graphics topics!
 
-#### 2. Raytracing
+#### <a name="raytracing2">2. Raytracing</a>
 First graphics project will be simple raytracing! **(Basically 1 math formula, understand it!)**   
 All resources below will cover the math & implementation, pick your poison.  
 - [Cherno Raytracing Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98edc5GshdBtREv5asFW3yXl) (REAL TIME RAYTRACER) Cherno Raytracing Guide that im following.
@@ -75,11 +75,11 @@ All resources below will cover the math & implementation, pick your poison.
 - [Scratchapixel, Intro to Raytracing](https://scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work.html) (OFFLINE RAYTRACER) Scratchapixel raytracer, but personally, I would go with 1 of the other ones above for raytracing. You should also go over scratch a pixels math lessons though for real graphics programming!
 - [Ssloy Tiny Raytracer](https://github.com/ssloy/tinyraytracer/wiki/Part-1:-understandable-raytracing) (OFFLINE RAYTRACER) SSloy Raytracer (again id personally go with 1 of the top 2 in this section, you will do ssloy renderer instead which is much more important!).
 
-#### 3. Software Renderer (Rasterizer)
+#### <a name="rasterizer3">3. Software Renderer (Rasterizer)</a>
 IMPORTANT! THIS IS SKIPPABLE BUT READ ALL BEFORE DECIDING > You can skip this section & dive into a graphics API if you want, but the point of this section is to teach you LITERALLY what a graphics specialization (API) is doing for you, which means you will do everything that the graphics specialization does for you in the back, this will help you understand most of the things for the future when you start & pick a graphics API to use.  
 - [ssloy](https://github.com/ssloy/tinyrenderer/wiki/Lesson-0:-getting-started) Ssloy Tiny Renderer, I personally am following this, but if you have another software rasterizer tutorial you are free to choose others ofc, just make sure its good! I just chose this because I see tons of other graphics engineers suggest this!
 
-#### 4. Pick your Graphics Specialization!
+#### <a name="gfxspec4">4. Pick your Graphics Specialization!</a>
 **Welcome to Hell! Pick your choice of pain carefully! (not really, they all give pain)**  
 You mainly have 2 choices, either go to the deep end (Vulkan, DX12) if you have prior experience (or if your a beginner with a death wish like me💃), or if you want to stay safe go with OpenGL. Personally, I have heard mixed opinions at this stage people argue that learning OpenGL is bad nowadays even if they are a "beginner" & should always go to DX 11 at the minimum or just do Vulkan or DX12. & Vice Versa. IMO, whatever you pick, understand it! please, understand it properly, especially the math & what a graphics function does for you in the back is very important!  
 Quick difficulity tier list: [Hard] Vulkan => DX12 > DX11 > OpenGL ["Easy"] no graphics api is "easy" 😉    
@@ -105,7 +105,7 @@ So why am I writing this? Because its also important to take small breaks & watc
 - [Cherno](https://www.youtube.com/@TheCherno) Full on Graphics Engineering youtube channel.
 - [Acerola](https://www.youtube.com/@Acerola_t) Shader Specialized (specifically post processing/screen based shaders) youtube channel.
 
-#### 5. Do fun stuff now! Dive Deeper! Or learn more! (Random Resources)
+#### <a name="dd5"> 5. Do fun stuff now! Dive Deeper! Or learn more! (Random Resources) </a>
 Here the list will deviate, & you have to do whatever you enjoy and essentially use whatever API you used before & maybe make something for fun, or dive deeper in specific areas for example getting better at shaders (raymarching, FFT water, post processing shaders, GPU instancing etc.). 
 
 #### Shaders
@@ -122,14 +122,14 @@ Here the list will deviate, & you have to do whatever you enjoy and essentially 
 - [DirectX Tutorial](http://www.directxtutorial.com/Lesson.aspx?lessonid=11-4-1) Seem's a little old but still pretty good, can be subbed out for LearnDXD11, your choice.
 - [Brian Will OpenGL Rants](https://www.youtube.com/watch?v=hPmEyAXdOdY&list=PLIbUZ3URbL0ESKHrvzXuHjrcLi7gxhBby) I personally like Brian, I think he does decent videos (some of it is really old but the concept is still valid). IMO I wouldn't follow it as a real tutorial but rather watch the video and try to understand the concept because hes explanations are whats important I feel like not the implementation as much if that makes sense.
 
-##### Miscellaneous
+##### <a name="mn6">Miscellaneous Notes</a>
 - [MathIsFun.com Trigonometry](https://www.mathsisfun.com/algebra/trigonometry.html) For Learning Trigonometry & can literally be used to learn everything in the prereqs & other math related topics that come later on in graphics.
 - Getting A Masters Degree in Computer Science with the final project (the thesis or dissertation whatever the place you choose calls it) based on something related to graphics. This note is for myself, because it sounds fun might do it. Ideas for final project could be a Minecraft Sim / a good raytracer / Voxel Engine & etc.<br>
 
 <strong><i>A very nice example of a [voxel engine](https://www.youtube.com/watch?v=8ptH79R53c0) by [John Lin](https://github.com/Lin20)</i></strong>
 
 
-##### Final Notes
+##### Life Advice & Closing Notes
 Will probably add more stuff here, but I have to mention it's extremely important to find out what you want to do in life, specifically if it's graphics then what with graphics?<br>
 Games Industry? Positions that exist are:<br>
 - Technical Artist/Shader Developer (Maybe even VFX position, dealing with particles & shaders).
