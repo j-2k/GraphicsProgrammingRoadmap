@@ -106,7 +106,7 @@ $$ \large ? = \sum_{i=1}^{n} a_i b_i $$
 #### <a name="m&c1">1. Math & C++ (Prerequisite Resources!)</a>
 *As I said previously, math is THE most important section of all graphics, Good Luck!*  
 Learn these 3 topics > Linear Algebra, Trigonometry, C++.
-- [MathIsFun.com Trigonometry](https://www.mathsisfun.com/algebra/trigonometry.html) For Learning Trigonometry & can be used to learn almost everything needed!
+- [MathIsFun.com Trigonometry](https://www.mathsisfun.com/algebra/trigonometry.html) For Learning Trigonometry & MathIsFun can be used to learn almost everything needed!
 - [Immersive Mathemathics](https://immersivemath.com/ila/index.html#), Learn math needed through a website that shows mathematics in an immersive 3D environment.
 - [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) Learning Linear Transformations, & see how they move in space via video (3blue1brown).
 - [Cherno C++ Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) Chernos C++ Series for the pre-requisite section (Video Format)
@@ -168,14 +168,14 @@ Here the list will deviate, & you have to do whatever you enjoy and essentially 
 - [DirectX Tutorial](http://www.directxtutorial.com/Lesson.aspx?lessonid=11-4-1) Seem's a little old but still pretty good, can be subbed out for LearnDXD11, your choice.
 - [Brian Will OpenGL Rants](https://www.youtube.com/watch?v=hPmEyAXdOdY&list=PLIbUZ3URbL0ESKHrvzXuHjrcLi7gxhBby) I personally like Brian, I think he does decent videos (some of it is really old but the concept is still valid). IMO I wouldn't follow it as a real tutorial but rather watch the video and try to understand the concept because hes explanations are whats important I feel like not the implementation as much if that makes sense.
 
-##### <a name="mn6">Miscellaneous Notes</a>
-- [MathIsFun.com Trigonometry](https://www.mathsisfun.com/algebra/trigonometry.html) For Learning Trigonometry & can literally be used to learn everything in the prereqs & other math related topics that come later on in graphics.
+#### <a name="mn6">Miscellaneous Notes</a>
 - Getting A Masters Degree in Computer Science with the final project (the thesis or dissertation whatever the place you choose calls it) based on something related to graphics. This note is for myself, because it sounds fun might do it. Ideas for final project could be a Minecraft Sim / a good raytracer / Voxel Engine & etc.<br>
+- Now throughout all of this notice how I didn't ever mention anything about making a game engine? IMO I think making a game engine is really difficult and takes a SHIT ton of time, if you want to be efficient with your time I think it's something not to do at all early on untill you really are comfortable with graphics! Instead sink your time in making graphics focused projects! A game engine requires support for physics, audio, networking, scripting, models, animation, etc and all the extra garbage that goes in a game engine, I think focusing your time in graphics projects will benefit you more since if you want to become a graphics engineer you will most likely work on the graphics pipeline in a game engine and not the scripting support system, audio or all that extra garbage, let the engine developers do it you will work alongside them anyways (You might also still be forced to join the engine developers (since these roles overlap slightly) & help them do it lmao).
+- I want to highlight that I am not frowning upon creating game engines but I think it's more beneficial for you to make graphics projects! Check out these 2 beautiful graphics projects below!!!
+1. <strong><i>A very nice example of a [Voxel engine](https://www.youtube.com/watch?v=8ptH79R53c0) by [John Lin](https://github.com/Lin20)</i></strong>  
+2. <strong><i>Example of an extremely good [Minecraft Sim](https://www.youtube.com/watch?v=M98Th82wC7c) by [Danol](https://github.com/CZDanol)</i></strong>  
 
-<strong><i>A very nice example of a [voxel engine](https://www.youtube.com/watch?v=8ptH79R53c0) by [John Lin](https://github.com/Lin20)</i></strong>
-
-
-##### Life Advice & Closing Notes
+#### Life Advice & Closing Notes
 Will probably add more stuff here, but I have to mention it's extremely important to find out what you want to do in life, specifically if it's graphics then what with graphics?<br>
 Games Industry? Positions that exist are:<br>
 - Technical Artist/Shader Developer (Maybe even VFX position, dealing with particles & shaders).
