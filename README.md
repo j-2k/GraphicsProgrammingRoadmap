@@ -64,9 +64,9 @@ Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
 
 Jokes aside, here are some answers to the previous questions:
 
-$$\LARGE \sum_{sigma}^{im} | \prod_{product}^{im} | \int_{integral}^{im}$$
+$$\large \sum_{sigma}^{im} | \prod_{product}^{im} | \int_{integral}^{im}$$
 
-$$\LARGE Rendering \ Equation\Rightarrow  L_o(\mathbf{x}, \omega_o) = L_e(\mathbf{x}, \omega_o) + \int_\Omega f_r(\mathbf{x}, \omega_i, \omega_o) L_i(\mathbf{x}, \omega_i) (\omega_i \cdot \mathbf{n}) \, d\omega_i$$
+$$\large Rendering \ Equation\Rightarrow  L_o(\mathbf{x}, \omega_o) = L_e(\mathbf{x}, \omega_o) + \int_\Omega f_r(\mathbf{x}, \omega_i, \omega_o) L_i(\mathbf{x}, \omega_i) (\omega_i \cdot \mathbf{n}) \, d\omega_i$$
 
 ---
 
@@ -77,7 +77,7 @@ Try to guess what this is if you have done some game development previously! Spo
   Rotation Matrix! Rotating around Z then Y then X!
 </details>
 
-$$ \LARGE
+$$ \large
 R = R_{z}(\gamma) \, R_{y}(\beta) \, R_{x}(\alpha) =
 \begin{bmatrix}
     \cos \gamma & -\sin \gamma & 0 \\
@@ -95,7 +95,7 @@ R = R_{z}(\gamma) \, R_{y}(\beta) \, R_{x}(\alpha) =
     0 & \sin \alpha & \cos \alpha \\
 \end{bmatrix} $$
 
-$$ \LARGE
+$$ \large
 = \begin{bmatrix}
     \cos \beta \cos \gamma & \sin \alpha \sin \beta \cos \gamma - \cos \alpha \sin \gamma & \cos \alpha \sin \beta \cos \gamma + \sin \alpha \sin \gamma \\
     \cos \beta \sin \gamma & \sin \alpha \sin \beta \sin \gamma + \cos \alpha \cos \gamma & \cos \alpha \sin \beta \sin \gamma - \sin \alpha \cos \gamma \\
@@ -110,10 +110,10 @@ Again! Try to guess what this formula is being used in! Spoilers below!
 
 <details>
   <summary>Click here to reveal the answer!</summary>
-  Dot Product! $$\LARGE\mathbf{a} \cdot \mathbf{b} = \sum_{i=1}^{n} a_i b_i $$
+  Dot Product! $$\large\mathbf{a} \cdot \mathbf{b} = \sum_{i=1}^{n} a_i b_i $$
 </details>
 
-$$ \LARGE ? = \sum_{i=1}^{n} a_i b_i $$
+$$ \large ? = \sum_{i=1}^{n} a_i b_i $$
 
 ---
 
