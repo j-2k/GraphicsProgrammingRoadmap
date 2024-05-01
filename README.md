@@ -32,10 +32,10 @@ Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
 4. Create a project with the Graphics API of choice (OpenGL, Vulkan, or DX12) & Render 1 Mesh with lighting. ❌  
 
 By here we are done technically, & now we just have to be passionate & make something or explore other topics such as:  
-PBR (Physically Based Rendering).   
-PPFX (Post Processing Effects like AO (Ambient Occlusion)).  
-Shaders (Ray-marching fun or Fast Fourier transforms for insane water).  
-This can go on forever but by here we can do whatever as long as we are learning, I personally, will have my next steps below.  
+- PBR (Physically Based Rendering).   
+- PPFX (Post Processing Effects like AO (Ambient Occlusion)).  
+- Shaders (Ray-marching fun or Fast Fourier transforms for insane water).  
+- This can go on forever but by here we can do whatever as long as we are learning, I personally, will have my next steps below.  
 
 #### Fun Section (How I will be continuing)  
 5. Create a graphics-focused Minecraft Sim with any Graphics API.  
