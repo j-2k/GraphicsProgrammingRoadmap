@@ -119,7 +119,9 @@ Learn these 3 topics > Linear Algebra, Trigonometry, C++.
 
 # <a name="raytracing2">2. Raytracing</a>
 
+<div align="center">
 <img src="imgs/rt.diagram.wiki.png" width=31%> <img src="imgs/rt.wiki.png" width=31%> <img src="imgs/rt.myrt.png" width=31%>
+</div>
 
 First graphics project will be simple raytracing! **(Basically 1 math formula, understand it!)**   
 All resources below will cover the math & implementation, pick your poison.  
@@ -129,6 +131,12 @@ All resources below will cover the math & implementation, pick your poison.
 - [Ssloy Tiny Raytracer](https://github.com/ssloy/tinyraytracer/wiki/Part-1:-understandable-raytracing) (OFFLINE RAYTRACER) SSloy Raytracer (again id personally go with 1 of the top 2 in this section, you will do ssloy renderer instead which is much more important!).
 
 # <a name="rasterizer3">3. Software Renderer (Rasterizer)</a>
+
+<div align="center">
+<img src="imgs/rast.blend.quaker.png" width=48%> <img src="imgs/rast.blend.wraith.png" width=48%> <br>
+<!--<img src="imgs/" width=19%>  <img src="imgs/" width=19%> <img src="imgs/" width=19%>  <img src="imgs/" width=19%><img src="imgs/" width=19%>-->
+</div>
+
 IMPORTANT! THIS IS SKIPPABLE BUT READ ALL BEFORE DECIDING > You can skip this section & dive into a graphics API if you want, but the point of this section is to teach you LITERALLY what a graphics specialization (API) is doing for you, which means you will do everything that the graphics specialization does for you in the back, this will help you understand most of the things for the future when you start & pick a graphics API to use.  
 - [ssloy](https://github.com/ssloy/tinyrenderer/wiki/Lesson-0:-getting-started) Ssloy Tiny Renderer, I personally am following this, but if you have another software rasterizer tutorial you are free to choose others ofc, just make sure its good! I just chose this because I see tons of other graphics engineers suggest this!
 
