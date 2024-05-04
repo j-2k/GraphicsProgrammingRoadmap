@@ -134,7 +134,7 @@ All resources below will cover the math & implementation, pick your poison.
 
 <div align="center">
 <img src="imgs/rast.blend.quaker.png" width=48%> <img src="imgs/rast.blend.wraith.png" width=48%> <br>
-<!--<img src="imgs/" width=19%>  <img src="imgs/" width=19%> <img src="imgs/" width=19%>  <img src="imgs/" width=19%><img src="imgs/" width=19%>-->
+<img src="imgs/rast.wireframe.quaker.png" width=19%>  <img src="imgs/rast.rast.quaker.png" width=19%> <img src="imgs/rast.depth.quaker.png" width=19%><!--  <img src="imgs/" width=19%><img src="imgs/" width=19%>-->
 </div>
 
 IMPORTANT! THIS IS SKIPPABLE BUT READ ALL BEFORE DECIDING > You can skip this section & dive into a graphics API if you want, but the point of this section is to teach you LITERALLY what a graphics specialization (API) is doing for you, which means you will do everything that the graphics specialization does for you in the back, this will help you understand most of the things for the future when you start & pick a graphics API to use.  
