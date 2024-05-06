@@ -91,7 +91,7 @@ Again! Try to guess what this formula is being used in! Spoilers below!
   <summary>Click here to reveal the answer!</summary>
   Dot Product!  Images from Google & Nvidia CG
 
-  <img src="imgs/dotprod.google.png"> <img src="imgs/dotprod.nvidiacg.png" width=50%>
+  <img src="imgs/dotprod.google.png"><img src="imgs/dotprod.nvidiacg.png" width=50%>
 </details>
 
 
@@ -120,7 +120,7 @@ Learn these 3 topics > Linear Algebra, Trigonometry, C++.
 # <a name="raytracing2">2. Raytracing</a>
 
 <div align="center">
-<img src="imgs/rt.diagram.wiki.png" width=31%> <img src="imgs/rt.wiki.png" width=31%> <img src="imgs/rt.myrt.png" width=31%>
+<img src="imgs/rt.diagram.wiki.png" width=31%><img src="imgs/rt.wiki.png" width=31%><img src="imgs/rt.myrt.png" width=31%>
 </div>
 
 First graphics project will be simple raytracing! **(Basically 1 math formula, understand it!)**   
@@ -133,8 +133,8 @@ All resources below will cover the math & implementation, pick your poison.
 # <a name="rasterizer3">3. Software Renderer (Rasterizer)</a>
 
 <div align="center">
-<img src="imgs/rast.blend.quaker.png" width=48%> <img src="imgs/rast.blend.wraith.png" width=48%> <br>
-<img src="imgs/rast.wireframe.quaker.png" width=19%>  <img src="imgs/rast.rast.quaker.png" width=19%> <img src="imgs/rast.depth.quaker.png" width=19%> <img src="imgs/rast.presproj.depth.quaker.png" width=19%><img src="imgs/rast.prespproj.texture.quaker.png" width=19%>
+<img src="imgs/rast.blend.quaker.png" width=48%><img src="imgs/rast.blend.wraith.png" width=48%> <br>
+<img src="imgs/rast.wireframe.quaker.png" width=19%><img src="imgs/rast.rast.quaker.png" width=19%><img src="imgs/rast.depth.quaker.png" width=19%><img src="imgs/rast.presproj.depth.quaker.png" width=19%><img src="imgs/rast.prespproj.texture.quaker.png" width=19%>
 </div>
 
 IMPORTANT! THIS IS SKIPPABLE BUT READ ALL BEFORE DECIDING > You can skip this section & dive into a graphics API if you want, but the point of this section is to teach you LITERALLY what a graphics specialization (API) is doing for you, which means you will do everything that the graphics specialization does for you in the back, this will help you understand most of the things for the future when you start & pick a graphics API to use.  
