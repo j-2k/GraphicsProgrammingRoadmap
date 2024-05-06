@@ -198,7 +198,7 @@ Games Industry? Positions that exist are:<br>
 (These are the main positions I look for, many other positions also exist just check the image below by hitmarker.)
 - Possibly even a research based position if you get really good & can land a place @ NVIDIA. <br>
 Adding this image for you to see more positions that a graphics dev can also work on alongside pursuing graphics. This image was not made by me, credits go to people @ [hitmarker.net](https://hitmarker.net/).
-<img src="gameprofessions-byhitmarker.png"  width="100%" height="100%">
+<img src="gameprofessions-byhitmarker2024.png"  width="100%">
 
 Movies Industry? I don't really know/care about them, so I won't talk about it here. But I heard there are opportunities over there also for graphics people.
 
