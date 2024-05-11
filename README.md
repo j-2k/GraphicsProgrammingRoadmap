@@ -149,7 +149,9 @@ LEARN WHAT ALL GFX API'S DO IN COMMON! THE CONCEPT BETWEEN THEM IS SIMILAR BUT Y
 ## Vulkan
 - [Vulkan Game Engine Tutorials](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR) Learn Vulkan from Brendan Galea, *THIS RESOURCE IS INSANELY INFORMATIVE & HELPFUL THIS SERIES HELPED ME A TON* (Optional choice to OpenGL with the benefit that its more updated & its a better graphics specialization, however is difficult for beginners, or just dive in & be a gigachad)
 - [Vulkan Tutorial](https://vulkan-tutorial.com/) Most popular Vulkan Tutorial page.  
-(No entry for DX12, because personally I would go with vlk than dx12, if you want dx12 just google should be easy to find a decent one)
+
+<!--## DX12
+- [DX12](https://www.3dgep.com/learning-directx-12-1/)-->
 
 ## DX11
 - [LearnDXD11](https://graphicsprogramming.github.io/learnd3d11/1-introduction/1-1-getting-started/1-1-3-hello-triangle/) Learn DirectX11, from the people @ the graphics programming discord server.
