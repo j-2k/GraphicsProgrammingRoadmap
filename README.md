@@ -172,9 +172,15 @@ So why am I writing this? Because its also important to take small breaks & watc
 Here the list will deviate, & you have to do whatever you enjoy and essentially use whatever API you used before & maybe make something for fun, or dive deeper in specific areas for example getting better at shaders (raymarching, FFT water, post processing shaders, GPU instancing etc.). 
 
 ## Shaders
-- [Catlike Coding](https://catlikecoding.com/unity/tutorials/) Probably the best shader tutorials out there easily. It's a crime that I forgot to put this in.
-- [Art of Code Youtube Channel](https://www.youtube.com/@TheArtofCodeIsCool) For learning & Writing better shaders using GLSL on Shadertoy (Easily transferable to HLSL/CG).
-- [Kishimisu Youtube Channel](https://www.youtube.com/@kishimisu) Mainly this is for people that are BRAND-NEW to shaders & want to learn in video rather than text, Kishi has great quality videos.
+I will list each resource's main shader languague, but it should not matter! It's all translatable! (GLSL/HLSL/CG)
+- Text Format
+  - [Catlike Coding](https://catlikecoding.com/unity/tutorials/) It's a crime that I forgot to put this in. Jasper also covers more advanced topics in the Unity Engine like rendering, reflections, tessellation, etc, literally one of the best resources if not the best! (CG/HLSL)
+  - [Book of Shaders](https://thebookofshaders.com/) Generalized shader learning resource, one of the best out there! (GLSL)
+  - [Inigo Quilez Articles](https://iquilezles.org/articles/) One of the handful that can claim to be a Shader Wizard. Your favourite shader probably has some functions yoinked from this guy 😎 (GLSL)
+  
+- Video Format
+  - [Kishimisu Youtube Channel](https://www.youtube.com/@kishimisu) Mainly this is for people that are BRAND-NEW to shaders & want to learn in video rather than text, Kishi has great quality videos. (GLSL)
+  - [Art of Code Youtube Channel](https://www.youtube.com/@TheArtofCodeIsCool) For learning & Writing better shaders using GLSL on Shadertoy (Mainly GLSL & Some CG/HLSL).
 
 ## Dive Deep into Computer Graphics (Advanced)
 - [Infamous PBR Book](https://pbr-book.org/) Physically Based Rendering Book
