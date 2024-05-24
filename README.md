@@ -146,6 +146,9 @@ You mainly have 2 choices, either go to the deep end (Vulkan, DX12) if you have 
 Quick difficulity tier list: [Hard] Vulkan => DX12 > DX11 > OpenGL ["Easy"] no graphics api is "easy" 😉    
 LEARN WHAT ALL GFX API'S DO IN COMMON! THE CONCEPT BETWEEN THEM IS SIMILAR BUT YOU MUST UNDERSTAND I CAN'T STRESS THIS ENOUGH.  
 
+
+<!-- <img src="imgs/logo.vulkan.png" width=25%> -->
+
 ## Vulkan
 - [Vulkan Game Engine Tutorials](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR) Learn Vulkan from Brendan Galea, *THIS RESOURCE IS INSANELY INFORMATIVE & HELPFUL THIS SERIES HELPED ME A TON* (Optional choice to OpenGL with the benefit that its more updated & its a better graphics specialization, however is difficult for beginners, or just dive in & be a gigachad)
 - [Vulkan Tutorial](https://vulkan-tutorial.com/) Most popular Vulkan Tutorial page.  
