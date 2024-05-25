@@ -174,6 +174,10 @@ So why am I writing this? Because its also important to take small breaks & watc
 # <a name="dd5"> 5. Do fun stuff now! Dive Deeper! Or learn more! (Random Resources) </a>
 Here the list will deviate, & you have to do whatever you enjoy and essentially use whatever API you used before & maybe make something for fun, or dive deeper in specific areas for example getting better at shaders (raymarching, FFT water, post processing shaders, GPU instancing etc.). 
 
+<div align="center">
+<img src="gifs/OptimizedGIFSunset.gif" width=44.5%><img src="gifs/Never_Seen_Snow.gif" width=27.5%><img src="gifs/Kings_Reflection_Debug.gif" width=27.5%>
+</div>
+
 ## Shaders
 I will list each resource's main shader languague, but it should not matter! It's all translatable! (GLSL/HLSL/CG)
 - Text Format
