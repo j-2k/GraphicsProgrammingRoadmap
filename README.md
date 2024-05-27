@@ -142,13 +142,13 @@ IMPORTANT! THIS IS SKIPPABLE BUT READ ALL BEFORE DECIDING > You can skip this se
 
 # <a name="gfxspec4">4. Pick your Graphics Specialization!</a>
 **Welcome to Hell! Pick your choice of pain!**  
-You mainly have 2 choices, either go to the deep end (Vulkan, DX12) if you have prior experience (or if your a beginner with a death wish like me 💃), or if you want to stay safe go with OpenGL. Personally, I have heard mixed opinions at this stage people argue that learning OpenGL is bad nowadays even if they are a "beginner" & should always go to DX 11 at the minimum or just do Vulkan or DX12. & Vice Versa. IMO, whatever you pick, understand it! please, understand it properly, especially the math & what a graphics function does for you in the back is very important!  
+You mainly have 2 choices, either go to the deep end (Vulkan, DX12) if you have prior experience (or if your a beginner with a death wish like me 💃), or if you want to stay safe go with OpenGL. Personally, I have heard mixed opinions at this stage people argue that learning OpenGL is bad nowadays even if they are a "beginner" & should always go to DX 11 at the minimum or just do Vulkan or DX12. & Vice Versa.
 Important notes about each API:  
 - DX (DirectX) is specialized for windows platform only!
 - Vulkan & OpenGL is cross-platform (everything)!
-  
-Commonly when people see this they just go with a crossplatform API, while thats fine its important to also note that if you plan on targeting windows only DirectX *"usually (context is massive)"* outperforms cross-platform APIs.  
-*YOU MUST LEARN WHAT ALL GFX API'S DO IN COMMON! THE CONCEPT BETWEEN THEM IS SIMILAR BUT YOU MUST UNDERSTAND! I CAN'T STRESS THIS ENOUGH.*  
+- Difficulty tiers of the API's from the hardest to easiest - Vulkan >= DX12 > DX11 > OpenGL  
+
+Commonly when people see this they just go with a crossplatform API, while thats fine its important to also note that if you plan on targeting windows only DirectX *"usually (context is massive)"* outperforms cross-platform APIs, However im pretty sure Vulkan does have lower overhead than DX12!
 
 <!-- <img src="imgs/logo.vulkan.png" width=25%> -->
 
@@ -164,7 +164,7 @@ Commonly when people see this they just go with a crossplatform API, while thats
 - [LearnD3D11](https://graphicsprogramming.github.io/learnd3d11/1-introduction/1-1-getting-started/1-1-3-hello-triangle/) Learn DirectX11, from the people @ the graphics programming discord server.
 
 ## OpenGL
-- [Learnopengl](https://learnopengl.com/) The most popular openGL resource out there.
+- [Learn OpenGl](https://learnopengl.com/) The most popular openGL resource out there.
 - [Learning Modern 3D Graphics Programming](https://paroj.github.io/gltut/index.html) Style is different & uses openGL but the point is to teach you how to program graphics not use OpenGL! not fixed learning & rather more programming read the about for more info.
 - [Scratchapixel](https://scratchapixel.com) Learn almost everything you need in the computer graphics domain, this uses OpenGL.
 - [Cherno OpenGL Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2) Learn OpenGL from Chernos OpenGL Series (Probably really old but whatever)
@@ -173,7 +173,12 @@ Commonly when people see this they just go with a crossplatform API, while thats
 ## Other Graphics APIs
 - WebGPU
 - WebGL 
+
+## Other important things to consider learning at this stage:
+- GPU Architecture
 -->
+
+
 
 ## External notes:
 Even though some of these resources are popular doesn't mean they are all "good" & "correct", a popular example of a flawed implementation of a PPFX like bloom for example in a popular resource like learn opengl is actually inaccurate & straight up wrong. Watch [Cherno's Bloom Video](https://www.youtube.com/watch?v=tI70-HIc5ro) where he talks about this.  
