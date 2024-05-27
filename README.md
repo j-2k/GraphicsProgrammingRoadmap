@@ -141,11 +141,14 @@ IMPORTANT! THIS IS SKIPPABLE BUT READ ALL BEFORE DECIDING > You can skip this se
 - [ssloy](https://github.com/ssloy/tinyrenderer/wiki/Lesson-0:-getting-started) Ssloy Tiny Renderer, I personally am following this, but if you have another software rasterizer tutorial you are free to choose others ofc, just make sure its good! I just chose this because I see tons of other graphics engineers suggest this!
 
 # <a name="gfxspec4">4. Pick your Graphics Specialization!</a>
-**Welcome to Hell! Pick your choice of pain carefully! (not really, they all give pain)**  
-You mainly have 2 choices, either go to the deep end (Vulkan, DX12) if you have prior experience (or if your a beginner with a death wish like me💃), or if you want to stay safe go with OpenGL. Personally, I have heard mixed opinions at this stage people argue that learning OpenGL is bad nowadays even if they are a "beginner" & should always go to DX 11 at the minimum or just do Vulkan or DX12. & Vice Versa. IMO, whatever you pick, understand it! please, understand it properly, especially the math & what a graphics function does for you in the back is very important!  
-Quick difficulity tier list: [Hard] Vulkan => DX12 > DX11 > OpenGL ["Easy"] no graphics api is "easy" 😉    
-LEARN WHAT ALL GFX API'S DO IN COMMON! THE CONCEPT BETWEEN THEM IS SIMILAR BUT YOU MUST UNDERSTAND I CAN'T STRESS THIS ENOUGH.  
-
+**Welcome to Hell! Pick your choice of pain!**  
+You mainly have 2 choices, either go to the deep end (Vulkan, DX12) if you have prior experience (or if your a beginner with a death wish like me 💃), or if you want to stay safe go with OpenGL. Personally, I have heard mixed opinions at this stage people argue that learning OpenGL is bad nowadays even if they are a "beginner" & should always go to DX 11 at the minimum or just do Vulkan or DX12. & Vice Versa. IMO, whatever you pick, understand it! please, understand it properly, especially the math & what a graphics function does for you in the back is very important!  
+Important notes about each API:  
+- DX (DirectX) is specialized for windows platform only!
+- Vulkan & OpenGL is cross-platform (everything)!
+  
+Commonly when people see this they just go with a crossplatform API, while thats fine its important to also note that if you plan on targeting windows only DirectX *"usually (context is massive)"* outperforms cross-platform APIs.  
+*YOU MUST LEARN WHAT ALL GFX API'S DO IN COMMON! THE CONCEPT BETWEEN THEM IS SIMILAR BUT YOU MUST UNDERSTAND! I CAN'T STRESS THIS ENOUGH.*  
 
 <!-- <img src="imgs/logo.vulkan.png" width=25%> -->
 
@@ -153,11 +156,12 @@ LEARN WHAT ALL GFX API'S DO IN COMMON! THE CONCEPT BETWEEN THEM IS SIMILAR BUT Y
 - [Vulkan Game Engine Tutorials](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR) Learn Vulkan from Brendan Galea, *THIS RESOURCE IS INSANELY INFORMATIVE & HELPFUL THIS SERIES HELPED ME A TON* (Optional choice to OpenGL with the benefit that its more updated & its a better graphics specialization, however is difficult for beginners, or just dive in & be a gigachad)
 - [Vulkan Tutorial](https://vulkan-tutorial.com/) Most popular Vulkan Tutorial page.  
 
-<!--## DX12
-- [DX12](https://www.3dgep.com/learning-directx-12-1/)-->
+## DirectX12
+- [DX12](https://www.3dgep.com/learning-directx-12-1/) Comprehensive guide on learning DirectX 12 by Jeremiah @ 3D Game Engine Programming
+- [DX12](https://learn.microsoft.com/en-us/windows/win32/direct3d12/directx-12-programming-guide) Guide by Microsoft
 
-## DX11
-- [LearnDXD11](https://graphicsprogramming.github.io/learnd3d11/1-introduction/1-1-getting-started/1-1-3-hello-triangle/) Learn DirectX11, from the people @ the graphics programming discord server.
+## DirectX11
+- [LearnD3D11](https://graphicsprogramming.github.io/learnd3d11/1-introduction/1-1-getting-started/1-1-3-hello-triangle/) Learn DirectX11, from the people @ the graphics programming discord server.
 
 ## OpenGL
 - [Learnopengl](https://learnopengl.com/) The most popular openGL resource out there.
@@ -165,9 +169,15 @@ LEARN WHAT ALL GFX API'S DO IN COMMON! THE CONCEPT BETWEEN THEM IS SIMILAR BUT Y
 - [Scratchapixel](https://scratchapixel.com) Learn almost everything you need in the computer graphics domain, this uses OpenGL.
 - [Cherno OpenGL Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2) Learn OpenGL from Chernos OpenGL Series (Probably really old but whatever)
 
+<!--
+## Other Graphics APIs
+- WebGPU
+- WebGL 
+-->
+
 ## External notes:
-Even though some of these resources are popular dosn't mean they are all "good" & "correct", a popular example of a flawed implementation of a PPFX like bloom for example in a popular resource like learn opengl is actually inaccurate & straight up wrong. Watch [Cherno's Bloom Video](https://www.youtube.com/watch?v=tI70-HIc5ro) where he talks about this.  
-So why am I writing this? Because its also important to take small breaks & watch some good graphics programmers do stuff for fun while educating you on the side about popular gfx topics to keep you hooked in & keep you interested! I listed some of my favourite graphics people below with their specializations!
+Even though some of these resources are popular doesn't mean they are all "good" & "correct", a popular example of a flawed implementation of a PPFX like bloom for example in a popular resource like learn opengl is actually inaccurate & straight up wrong. Watch [Cherno's Bloom Video](https://www.youtube.com/watch?v=tI70-HIc5ro) where he talks about this.  
+So why am I writing this? To remind you to research yourself how a certain topic is implemented & not taking everything for granted! It's also a good idea to take small breaks & watch some good graphics programmers do stuff for fun while educating you on the side about popular gfx topics to keep you hooked in & keep you interested! I listed some of my favourite graphics people below with their specializations!
 - [Cherno](https://www.youtube.com/@TheCherno) Full on Graphics Engineering youtube channel.
 - [Acerola](https://www.youtube.com/@Acerola_t) Shader Specialized (specifically post processing/screen based shaders) youtube channel.
 
