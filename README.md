@@ -7,15 +7,6 @@ In order to not waste your time, I want to say that graphics is heavy in mathema
 
 Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 
-**Alternative really good graphics developer roadmap:**
-- https://github.com/prographon/graphics-developer-roadmap
-
-<br>
-
-**General game programming roadmap with many additional specializations (graphics, multiplayer, etc):**
-- https://github.com/miloyip/game-programmer  
-- https://roadmap.sh/game-developer
-
 # Contents
 - [Pre-Roadmap advice from me as a learner!](#pregraphics) My honest advice, I suggest you read if you are new to graphics!
 0. [Roadmap start & Graphics advice from professionals](#graphics) 
@@ -210,9 +201,15 @@ I will list each resource's main shader languague, but it should not matter! It'
 
 ## Extras
 - [Extra Graphics Programming Resources](https://www.reddit.com/r/GraphicsProgramming/comments/1d5swt6/computer_graphics_programming_resources/) In case some sections miss out on some resources, here is another post full of graphics programming resources!
+- Alternative really good graphics developer roadmap: https://github.com/prographon/graphics-developer-roadmap
+- General game programming roadmap with many additional specializations (graphics, multiplayer, etc):
+  - https://github.com/miloyip/game-programmer  
+  - https://roadmap.sh/game-developer
+
 - [Big Randy Resources (Not just Graphics)](https://github.com/bigrando420/resources/wiki) Big Randy's resources are actually pretty good too.
 - [DirectX Tutorial](http://www.directxtutorial.com/Lesson.aspx?lessonid=11-4-1) Seem's a little old but still pretty good, can be subbed out for LearnDXD11, your choice.
 - [Brian Will OpenGL Rants](https://www.youtube.com/watch?v=hPmEyAXdOdY&list=PLIbUZ3URbL0ESKHrvzXuHjrcLi7gxhBby) I personally like Brian, I think he does decent videos (some of it is really old but the concept is still valid). IMO I wouldn't follow it as a real tutorial but rather watch the video and try to understand the concept because hes explanations are whats important I feel like not the implementation as much if that makes sense.
+
 
 # <a name="mn6">Miscellaneous Notes</a>
 - Getting A Masters Degree in Computer Science with the final project (the thesis or dissertation whatever the place you choose calls it) based on something related to graphics. This note is for myself, because it sounds fun might do it. Ideas for final project could be a Minecraft Sim / a good raytracer / Voxel Engine & etc.<br>
