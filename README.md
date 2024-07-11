@@ -143,22 +143,32 @@ Commonly when people see this they just go with a crossplatform API, while thats
 
 <!-- <img src="imgs/logo.vulkan.png" width=25%> -->
 
-## Vulkan
+##
+<img src="imgs/logo.vulkan.png" width=25%>
+
 - [Vulkan Game Engine Tutorials](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR) Learn Vulkan from Brendan Galea, *THIS RESOURCE IS INSANELY INFORMATIVE & HELPFUL THIS SERIES HELPED ME A TON* (Optional choice to OpenGL with the benefit that its more updated & its a better graphics specialization, however is difficult for beginners, or just dive in & be a gigachad)
 - [Vulkan Tutorial](https://vulkan-tutorial.com/) Most popular Vulkan Tutorial page.  
 
-## DirectX12
+## 
+<img src="imgs/logo.dx12.png" width=15%>
+
 - [DX12](https://www.3dgep.com/learning-directx-12-1/) Comprehensive guide on learning DirectX 12 by Jeremiah @ 3D Game Engine Programming
 - [DX12](https://learn.microsoft.com/en-us/windows/win32/direct3d12/directx-12-programming-guide) Guide by Microsoft
 
-## DirectX11
+##
+<img src="imgs/logo.dx11.png" width=15%>
+
 - [LearnD3D11](https://graphicsprogramming.github.io/learnd3d11/1-introduction/1-1-getting-started/1-1-3-hello-triangle/) Learn DirectX11, from the people @ the graphics programming discord server.
 
-## OpenGL
+##
+<img src="imgs/logo.opengl.png" width=25%>
+
 - [Learn OpenGl](https://learnopengl.com/) The most popular openGL resource out there.
 - [Learning Modern 3D Graphics Programming](https://paroj.github.io/gltut/index.html) Style is different & uses openGL but the point is to teach you how to program graphics not use OpenGL! not fixed learning & rather more programming read the about for more info.
 - [Scratchapixel](https://scratchapixel.com) Learn almost everything you need in the computer graphics domain, this uses OpenGL.
 - [Cherno OpenGL Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2) Learn OpenGL from Chernos OpenGL Series (Probably really old but whatever)
+
+##
 
 <!--
 ## Other Graphics APIs
