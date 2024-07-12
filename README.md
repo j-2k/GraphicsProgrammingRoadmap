@@ -195,17 +195,30 @@ Here the list will deviate, & you have to do whatever you enjoy and essentially 
 </div>
 
 ## Shaders
-I will list each resource's main shader languague, but it should not matter! It's all translatable! (GLSL/HLSL/CG)
+I will list each resource's main shader languague & specialization OR engine its on @ the end of the resource **(GLSL/HLSL/CG/Unreal/Unity/OpenGL/DX3D/Vulkan... etc)**, but it should not matter! It's all translatable! Engine Choice or Graphics Specialization choice should not matter as shaders are literally just math garbage and is translatable everywhere! *(yes some things are different but im talking about the big picture)*
+  
+Shaders can get quite complex, but its all up to your creativity I will list a range of websites that help during all stages of shader development. I have not added specific shaders to do but I will leave that with you to explore with a few to begin with that are fun & kinda "simple" > Fresnel, Toon, Ray Marching & [Shell Texturing](https://www.youtube.com/watch?v=P-vr9w1XpAY) (My shameless video plug :D).
+
+Not really biased but I just want to say if you can understand everything in catlike coding's rendering section and the many articles from IQ (Inigo Quilez), you will master shaders easily (easier said than done lmfao GL).
+
 - Text Format
-  - [Catlike Coding](https://catlikecoding.com/unity/tutorials/) It's a crime that I forgot to put this in. Jasper also covers more advanced topics in the Unity Engine like rendering, reflections, tessellation, etc, literally one of the best resources if not the best! (CG/HLSL)
-  - [Book of Shaders](https://thebookofshaders.com/) Generalized shader learning resource, one of the best out there! (GLSL)
-  - [Inigo Quilez Articles](https://iquilezles.org/articles/) One of the handful that can claim to be a Shader Wizard. Your favourite shader probably has some functions yoinked from this guy 😎 (GLSL)
+  - [Catlike Coding](https://catlikecoding.com/unity/tutorials/) It's a crime that I forgot to put this in. Jasper also covers more advanced topics in the Unity Engine like rendering, reflections, tessellation, etc, literally one of the best resources if not the best! **(Unity/CG/HLSL)**
+  - [Lettier's Game Shader 4 Beginners](https://github.com/lettier/3d-game-shaders-for-beginners) Has many nice guides for Post Processing and other beginning shader topics **(OpenGL/GLSL)**.
+  - [Book of Shaders](https://thebookofshaders.com/) Generalized shader learning resource, one of the best out there! **(GLSL only)**
+  - [Inigo Quilez Articles](https://iquilezles.org/articles/) One of the handful that can claim to be a Shader Wizard. Your favourite shader probably has some functions yoinked from this guy 😎 **(GLSL only)**
   
 - Video Format
-  - [Kishimisu Youtube Channel](https://www.youtube.com/@kishimisu) Mainly this is for people that are BRAND-NEW to shaders & want to learn in video rather than text, Kishi has great quality videos. (GLSL)
-  - [Art of Code Youtube Channel](https://www.youtube.com/@TheArtofCodeIsCool) For learning & Writing better shaders using GLSL on Shadertoy (Mainly GLSL & Some CG/HLSL).
+  - [Kishimisu Youtube Channel](https://www.youtube.com/@kishimisu) Mainly this is for people that are BRAND-NEW to shaders & want to learn in video rather than text, Kishi has great quality videos. **(GLSL only)**
+  - [Art of Code Youtube Channel](https://www.youtube.com/@TheArtofCodeIsCool) For learning & Writing better shaders using GLSL on Shadertoy **(Mainly GLSL & Some CG/HLSL)**.
+
+- Splash of random Unity Specific shader resources that I used in the past:
+  - [Freya Holmer](https://www.youtube.com/channel/UC7M-Wz4zK8oikt6ATcoTwBA) Freya has tons of stuff on their youtube for learning shaders!
+  - [Ronja Shader Tutorials](https://www.ronja-tutorials.com/) Many useful shaders with a guide on how they implemented everything!
+  - [Roystan's Shader Articles](https://roystan.net/articles/) Simple guides on beginner shader topics! (Roystan was a life saver when I was a student <3)
+  - [Ben Cloward](https://www.youtube.com/channel/UCoG9TB1eL6dm9eNbLFueHBQ) Ben does both UNITY & UNREAL, however its all shadergraph, but idea & implementation is all there!
 
 ## Dive Deep into Computer Graphics (Advanced)
+This advanced section is basically the core for end-game graphics, many people consider PBRT the end stage/industry standard & if you achieve physically based rendering and understand it properly you are in a very good place!
 - [Infamous PBR Book](https://pbr-book.org/) Physically Based Rendering Book
 - [Real Time Rendering](https://realtimerendering.com/) Core book for Real-Time Graphics
 
