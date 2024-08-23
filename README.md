@@ -7,6 +7,8 @@ In order to not waste your time, I want to say that graphics is heavy in mathema
 
 Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 
+***🥳 Thank you all for the 25 stars/support achieved on 8/23/2024! 🥳***
+
 # Contents
 - [Pre-Roadmap advice from me as a learner!](#pregraphics) My honest advice, I suggest you read if you are new to graphics!
 0. [Roadmap start & Graphics advice from professionals](#graphics) 
