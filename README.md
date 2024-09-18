@@ -123,7 +123,7 @@ All resources below will cover the math & implementation, pick your poison.
 - [Scratchapixel, Intro to Raytracing](https://scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work.html) (OFFLINE RAYTRACER) Scratchapixel raytracer, but personally, I would go with 1 of the other ones above for raytracing. You should also go over scratch a pixels math lessons though for real graphics programming!
 - [Ssloy Tiny Raytracer](https://github.com/ssloy/tinyraytracer/wiki/Part-1:-understandable-raytracing) (OFFLINE RAYTRACER) SSloy Raytracer (again id personally go with 1 of the top 2 in this section, you will do ssloy renderer instead which is much more important!).
 
-# <a name="rasterizer3">3. Software Renderer (Rasterizer)</a>
+# <a name="rasterizer3">3. Software Renderer & Graphics Pipeline</a>
 
 <div align="center">
 <img src="imgs/rast.blend.quaker.png" width=48%><img src="imgs/rast.blend.wraith.png" width=48%> <br>
@@ -135,27 +135,32 @@ IMPORTANT! THIS IS SKIPPABLE BUT READ ALL BEFORE DECIDING > You can skip this se
 
 # <a name="gfxspec4">4. Pick your Graphics Specialization!</a>
 **Welcome to Hell! Pick your choice of pain!**  
-You mainly have 2 choices, either go to the deep end (Vulkan, DX12) if you have prior experience (or if your a beginner with a death wish like me 💃), or if you want to stay safe go with OpenGL. Personally, I have heard mixed opinions at this stage people argue that learning OpenGL is bad nowadays even if they are a "beginner" & should always go to DX 11 at the minimum or just do Vulkan or DX12. & Vice Versa.
-Important notes about each API:  
+Here you have 2 choices, I personally read from many engineers & even recruiters/interviewers that you should start with a modern graphics specification (graphics API) rather than old specifications. IMO, I think you should probably start with something easy then progress to a harder graphics specification!
+
+Example of what I mean: Start with Modern OpenGL OR DirectX11 and once you are comfortable move on to either Vulkan OR DirectX12! (But if you have a death wish & unlimited free time you can just jump into Vulkan & become a gigachad GL 👑)
+
+Important notes about some of the Graphics API:  
 - DX (DirectX) is specialized for windows platform only!
 - Vulkan & OpenGL is cross-platform (everything)!
-- Difficulty tiers of the API's from the hardest to easiest - Vulkan >= DX12 > DX11 > OpenGL  
+- Rough difficulty tier list of the API's from the hardest on the left to easiest on the right: ***Vulkan >= DX12 > WebGPU? >= DX11 > OpenGL > WebGL*** (I'm not sure on the placement of WebGPU but take it with a grain of salt or do some more research).
+- If you want to learn graphics for the web only, you can directly jump into WebGPU but that is assuming you already know how the math works & structure of a graphics pipeline. WebGL is very dumbed-down compared to OpenGL & WebGPU but it's not a bad idea to do it first before WebGPU, I'd recommend it anyway, just dont waste too much time on it!
+- **LEARN MODERN VERSIONS OF THE API YOU CHOOSE. IT IS VERY IMPORTANT** that you choose a modern verison of a API you choose, for example never do DX8/9/10 over DX11, the same goes for OpenGL stay away from old versions like pre-3.0, for modern OpenGL versions 4.3+ is good or the latest stable release at the time of writing this is 4.6 (Basically, just choose the latest stable release version!).
 
-Commonly when people see this they just go with a crossplatform API, while thats fine its important to also note that if you plan on targeting windows only DirectX *"usually (context is massive)"* outperforms cross-platform APIs, However im pretty sure Vulkan does have lower overhead than DX12!
+Commonly when people see the features of GFXAPIs they just go with a crossplatform API, while that's fine it's important to also note that if you plan on targeting windows only DirectX *"usually"* **(context is massive)** outperforms cross-platform APIs, However I'm pretty sure Vulkan does have lower overhead than DX12!
 
-<!-- <img src="imgs/logo.vulkan.png" width=25%> -->
-
-##
+## Software Based Graphics Specifications!
 <img src="imgs/logo.vulkan.png" width=25%>
 
-- [Vulkan Game Engine Tutorials](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR) Learn Vulkan from Brendan Galea, *THIS RESOURCE IS INSANELY INFORMATIVE & HELPFUL THIS SERIES HELPED ME A TON* (Optional choice to OpenGL with the benefit that its more updated & its a better graphics specialization, however is difficult for beginners, or just dive in & be a gigachad)
-- [Vulkan Tutorial](https://vulkan-tutorial.com/) Most popular Vulkan Tutorial page.  
+- [Vulkan Game Engine Tutorials](https://www.youtube.com/playlist?list=PL8327DO66nu9qYVKLDmdLW_84-yE4auCR) Learn Vulkan from Brendan Galea, *THIS RESOURCE IS INSANELY INFORMATIVE & HELPFUL THIS SERIES HELPED ME A TON.* Brendan's videos are amazing.
+- [Vulkan Guide](https://vkguide.dev/) Vulkan guide with code examples.
+- [Vulkan Tutorial](https://vulkan-tutorial.com/) Most popular Vulkan Tutorial page. 
+- [Vulkan Documentation](https://vkdoc.net/) Proclaimed better version of Vulkan Documentation? This is really good, however its more of a documentation style of learning & not a direct guide. 
 
 ## 
 <img src="imgs/logo.dx12.png" width=15%>
 
-- [DX12](https://www.3dgep.com/learning-directx-12-1/) Comprehensive guide on learning DirectX 12 by Jeremiah @ 3D Game Engine Programming
-- [DX12](https://learn.microsoft.com/en-us/windows/win32/direct3d12/directx-12-programming-guide) Guide by Microsoft
+- [DX12](https://www.3dgep.com/learning-directx-12-1/) Comprehensive guide on learning DirectX 12 by Jeremiah @ 3D Game Engine Programming.
+- [DX12](https://learn.microsoft.com/en-us/windows/win32/direct3d12/directx-12-programming-guide) Guide by Microsoft.
 
 ##
 <img src="imgs/logo.dx11.png" width=15%>
@@ -165,26 +170,34 @@ Commonly when people see this they just go with a crossplatform API, while thats
 ##
 <img src="imgs/logo.opengl.png" width=25%>
 
-- [Learn OpenGl](https://learnopengl.com/) The most popular openGL resource out there.
-- [Learning Modern 3D Graphics Programming](https://paroj.github.io/gltut/index.html) Style is different & uses openGL but the point is to teach you how to program graphics not use OpenGL! not fixed learning & rather more programming read the about for more info.
+- [Learn OpenGL](https://learnopengl.com/) The most popular openGL resource out there.
+- [Learning Modern 3D Graphics Programming - paroj](https://paroj.github.io/gltut/index.html) Style is different & uses openGL but the point is to teach you how to program graphics not use OpenGL! not fixed learning & rather more programming read the about for more info.
 - [Scratchapixel](https://scratchapixel.com) Learn almost everything you need in the computer graphics domain, this uses OpenGL.
 - [Cherno OpenGL Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2) Learn OpenGL from Chernos OpenGL Series (Probably really old but whatever)
 
+## Web Based Graphics Specifications!
+<img src="imgs/logo.webgpu.png" width=23%>
+
+*Note even though this is web, WebGPU can actually run on JS/Rust/C++ etc, so choose the resource on what you enjoy programming in, if you want C++ go with Learn WebGPU, if JS/TS go with WebGPU Fundamentals!*
+- [WebGPU Fundamentals](https://webgpufundamentals.org/) by greggman, same author of WebGL Fundamentals, can't go wrong.
+- [Learn WebGPU](https://eliemichel.github.io/LearnWebGPU/) by eliemichel, very clean resources & guides.
+
 ##
+<img src="imgs/logo.webgl.png" width=25%>
 
-<!--
-## Other Graphics APIs
-- WebGPU
-- WebGL 
+- [WebGL Fundamentals](https://webglfundamentals.org/) by greggman, my personal opinion but I think this is one of the best authors for teaching things, the explanations are clear and simple to understand. 
+- [WebGL2 Fundamentals](https://webgl2fundamentals.org/) by greggman, webgl2 is just a better version of WebGL but both are fine, if you are very new I would go with 1 though.
+- [Learn WebGL](https://learnwebgl.brown37.net/index.html) by brown37, another good resource I used for learning the basics.
 
-## Other important things to consider learning at this stage:
+
+## Additional things to consider learning for GFX Engineers
 - GPU Architecture
--->
-
-
+  - For this I dont have much resources other than this one big list that has everything related to GPUs, it covers everything such as GPU Architecture, Graphics Pipeline, Optimizations for the GPU, & etc. https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d
+- Basic CPU Architecture
+  - Useful to understand basic CPU architecture to know why values passed to GPU make things slow, overhead related things, & etc.
 
 ## External notes:
-Even though some of these resources are popular doesn't mean they are all "good" & "correct", a popular example of a flawed implementation of a PPFX like bloom for example in a popular resource like learn opengl is actually inaccurate & straight up wrong. Watch [Cherno's Bloom Video](https://www.youtube.com/watch?v=tI70-HIc5ro) where he talks about this.  
+Even though some of these resources are popular doesn't mean they are all "good" & "correct", a popular example of a flawed implementation of a PPFX like bloom for example in a popular resource like learn opengl is actually inaccurate. Watch [Cherno's Bloom Video](https://www.youtube.com/watch?v=tI70-HIc5ro) where he talks about this.  
 So why am I writing this? To remind you to research yourself how a certain topic is implemented & not taking everything for granted! It's also a good idea to take small breaks & watch some good graphics programmers do stuff for fun while educating you on the side about popular gfx topics to keep you hooked in & keep you interested! I listed some of my favourite graphics people below with their specializations!
 - [Cherno](https://www.youtube.com/@TheCherno) Full on Graphics Engineering youtube channel.
 - [Acerola](https://www.youtube.com/@Acerola_t) Shader Specialized (specifically post processing/screen based shaders) youtube channel.
@@ -261,8 +274,11 @@ Movies Industry? I don't really know/care about them, so I won't talk about it h
 Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
 1. Write a software raytracer. ✔️ (Cherno Raytracing Series)  
 2. Write a software rasterizer. ✔️ (SSloy Tiny rasterizer, 90% Done)  
-3. Write a Hello World Triangle. ❌ (Use a graphics specialization!)  
-4. Create a project with the Graphics API of choice (OpenGL, Vulkan, or DX12) & Render 1 Mesh with lighting. ❌  
+3. Write a Hello World Triangle. ✔️ (Use a graphics specialization! WebGL used) 
+4. Write a 3D Renderer from the previous step, bonus points for making a mini project here! (⌛ WebGL 3D Mini Project in progress)
+   - Diverting a little in between here by using WebGL to make fun stuff before I jump into a more serious graphics specification! 
+5. Create a 3D project with a stronger Graphics API of choice compared to the last step! (WebGPU or OpenGL in my case, if you come from OpenGL or DX11 try to step up to Vulkan or DX12, if you are already up there, try the other counterpart!) 
+   - At the minimum try to render 1 Mesh with lighting. ❌  
 
 #### By here we are done technically, & now we just have to be passionate & make something or explore other topics such as:  
 - PBR (Physically Based Rendering).   
