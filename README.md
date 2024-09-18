@@ -109,6 +109,7 @@ Learn these 3 topics > Linear Algebra, Trigonometry, C++.
 - [Cherno C++ Series](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) Chernos C++ Series for the pre-requisite section (Video Format)
 - [Learn CPP Website](https://www.learncpp.com) Learn C++ website, literally everything covered (Reading Format)
 - [Scratchapixel](https://scratchapixel.com) You can learn all math prerequisites in here (Geometry Section) & other computer graphics topics!
+- [3D Graphics Overview -  Mathematics for Graphics](https://www.youtube.com/playlist?list=PLlWgYfV78e0lRd_k8RXTBYZUlq4q3D62X) Underrated videos that explain the mathematics behind 3D graphics concepts, you dont have to go through all the videos if you know some topics but make sure to watch something you struggled to understand! (Video format)
 
 # <a name="raytracing2">2. Raytracing</a>
 
@@ -123,19 +124,34 @@ All resources below will cover the math & implementation, pick your poison.
 - [Scratchapixel, Intro to Raytracing](https://scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work.html) (OFFLINE RAYTRACER) Scratchapixel raytracer, but personally, I would go with 1 of the other ones above for raytracing. You should also go over scratch a pixels math lessons though for real graphics programming!
 - [Ssloy Tiny Raytracer](https://github.com/ssloy/tinyraytracer/wiki/Part-1:-understandable-raytracing) (OFFLINE RAYTRACER) SSloy Raytracer (again id personally go with 1 of the top 2 in this section, you will do ssloy renderer instead which is much more important!).
 
-# <a name="rasterizer3">3. Software Renderer & Graphics Pipeline</a>
+# <a name="rasterizer3">3. Software Renderer & Graphics Pipeline Foundations</a>
 
 <div align="center">
 <img src="imgs/rast.blend.quaker.png" width=48%><img src="imgs/rast.blend.wraith.png" width=48%> <br>
 <img src="imgs/rast.wireframe.quaker.png" width=19%><img src="imgs/rast.rast.quaker.png" width=19%><img src="imgs/rast.depth.quaker.png" width=19%><img src="imgs/rast.presproj.depth.quaker.png" width=19%><img src="imgs/rast.prespproj.texture.quaker.png" width=19%>
 </div>
 
-IMPORTANT! THIS IS SKIPPABLE BUT READ ALL BEFORE DECIDING > You can skip this section & dive into a graphics API if you want, but the point of this section is to teach you LITERALLY what a graphics specialization (API) is doing for you, which means you will do everything that the graphics specialization does for you in the back, this will help you understand most of the things for the future when you start & pick a graphics API to use.  
-- [ssloy](https://github.com/ssloy/tinyrenderer/wiki/Lesson-0:-getting-started) Ssloy Tiny Renderer, I personally am following this, but if you have another software rasterizer tutorial you are free to choose others ofc, just make sure its good! I just chose this because I see tons of other graphics engineers suggest this!
+**IMPORTANT! THIS STEP IS SKIPPABLE BUT READ BEFORE DECIDING!**
+
+Diving directly into a GFX API while just previously writing just a raytracer is usually possible, however nothing related the the graphics pipeline & the foundations of graphics programming has been taught yet, usually at this stage if you skip that means you will be learning how the GFX Pipeline works AND a graphics specification. That is the main problem, & thats why this section exists and is heavily recommended to first learn how the graphics pipeline work because knowing this inside out will make everything easier in the future!
+
+The point here is to teach you LITERALLY what a graphics specialization (API) is doing for you, which means you will do everything that the graphics specialization does for you in the back, this will help you understand most of the things in the future when you start & pick a graphics API to use.
+
+## Learning the Foundations of the Graphics Pipeline
+This will serve as a starting point of learning what the graphics pipeline is and should be a light introduction that is fun to read for the user. I tried picking resources that I found funny and/or fun to read, before directly jumping into programming a software renderer (CPU Renderer).
+
+- [Graphics Pipelines for Young Bloods](https://www.jeremyong.com/cpp/2021/05/20/graphics-pipelines-for-young-bloods/) Amazing introduction & read to what the graphics pipeline is and the common issues in it!
+- [Gentle Introduction to Computer Graphics](https://www.scratchapixel.com/index.html) scratchapixel's website, I linked the index page, but just enter the page that says "1. Your Starting Point!", I linked the index page because the website covers many topics that you might struggle to understand later on, so briefly scroll through it just incase in the next section when you struggle to understand something you can come back here!
+- [Trip through the Graphics Pipeline](https://alaingalvan.gitbook.io/a-trip-through-the-graphics-pipeline) by alaingalvan, this read is a deeper look into the graphics pipeline but it covers everything very well.
+
+## Writing a Software Renderer
+Once you have a rough understanding of what goes on in the graphics pipeline it's time to try to implement one! GL!
+
+- [ssloy](https://github.com/ssloy/tinyrenderer/wiki/Lesson-0:-getting-started) Ssloy's Tiny Renderer, I personally am following this, but if you have another software rasterizer tutorial you are free to choose others ofc, just make sure its good! I just chose this because I see tons of other graphics engineers suggest this!
 
 # <a name="gfxspec4">4. Pick your Graphics Specialization!</a>
 **Welcome to Hell! Pick your choice of pain!**  
-Here you have 2 choices, I personally read from many engineers & even recruiters/interviewers that you should start with a modern graphics specification (graphics API) rather than old specifications. IMO, I think you should probably start with something easy then progress to a harder graphics specification!
+Here you have 2 choices, I personally read from many engineers & even recruiters/interviewers that you should start with a modern graphics specification (graphics API) rather than old specifications. IMO, I think you should probably start with something easy *FOR LEARNING PURPOSES* & then progress to a harder graphics specification immediately!
 
 Example of what I mean: Start with Modern OpenGL OR DirectX11 and once you are comfortable move on to either Vulkan OR DirectX12! (But if you have a death wish & unlimited free time you can just jump into Vulkan & become a gigachad GL 👑)
 
@@ -192,15 +208,19 @@ Commonly when people see the features of GFXAPIs they just go with a crossplatfo
 
 ## Additional things to consider learning for GFX Engineers
 - GPU Architecture
-  - For this I dont have much resources other than this one big list that has everything related to GPUs, it covers everything such as GPU Architecture, Graphics Pipeline, Optimizations for the GPU, & etc. https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d
+  - [GPU Optimization for GameDev by silvesthu](https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d) for this I dont have much resources other than this one big list that has everything related to GPUs, it covers everything such as GPU Architecture, Graphics Pipeline, Optimizations for the GPU, & etc. 
+  - [GPU Synchronization & Pre-emption](https://therealmjp.github.io/posts/breaking-down-barriers-part-1-whats-a-barrier/) good read if you are deep into graphics.
 - Basic CPU Architecture
   - Useful to understand basic CPU architecture to know why values passed to GPU make things slow, overhead related things, & etc.
 
-## External notes:
-Even though some of these resources are popular doesn't mean they are all "good" & "correct", a popular example of a flawed implementation of a PPFX like bloom for example in a popular resource like learn opengl is actually inaccurate. Watch [Cherno's Bloom Video](https://www.youtube.com/watch?v=tI70-HIc5ro) where he talks about this.  
-So why am I writing this? To remind you to research yourself how a certain topic is implemented & not taking everything for granted! It's also a good idea to take small breaks & watch some good graphics programmers do stuff for fun while educating you on the side about popular gfx topics to keep you hooked in & keep you interested! I listed some of my favourite graphics people below with their specializations!
+## Stay motivated? Or disciplined? Have fun!
+This is the most difficult section usually as a beginner in GFX programming, take the time to have some fun with it, make fun projects, dont die out here! Watch people you enjoy do some graphics projects so you can have fun watching it & stay motivated or disciplined. Learn some things you didn't know, like Cherno covering how Bloom is implemented incorrectly in many areas! [Cherno's Bloom Video](https://www.youtube.com/watch?v=tI70-HIc5ro) where he talks about this.  
+
+So have some fun, the more you enjoy doing something the more you learn without even having to feel like you are trying. I'm writing this from experience, so take smart breaks, have fun, watch people you enjoy do things you enjoy! I listed some people I enjoy watching from time to time with their specialization within the graphics space.
 - [Cherno](https://www.youtube.com/@TheCherno) Full on Graphics Engineering youtube channel.
 - [Acerola](https://www.youtube.com/@Acerola_t) Shader Specialized (specifically post processing/screen based shaders) youtube channel.
+- [Brian Will](https://www.youtube.com/@briantwill) The based monster of computer science, watch him yap about the concepts of graphics in his graphics section! 
+- [Inigo Quilez](https://www.youtube.com/@InigoQuilez) #1 Shader magician world... probably... easily actually.
 
 # <a name="dd5"> 5. Do fun stuff now! Dive Deeper! Or learn more! (Random Resources) </a>
 Here the list will deviate, & you have to do whatever you enjoy and essentially use whatever API you used before & maybe make something for fun, or dive deeper in specific areas for example getting better at shaders (raymarching, FFT water, post processing shaders, GPU instancing etc.). 
