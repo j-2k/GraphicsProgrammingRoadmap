@@ -295,10 +295,10 @@ Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
 1. Write a software raytracer. ✔️ (Cherno Raytracing Series)  
 2. Write a software rasterizer. ✔️ (SSloy Tiny rasterizer, 90% Done)  
 3. Write a Hello World Triangle. ✔️ (Use a graphics specialization! WebGL used) 
-4. Write a 3D Renderer from the previous step, bonus points for making a mini project here! (⌛ WebGL 3D Mini Project in progress)
-   - Diverting a little in between here by using WebGL to make fun stuff before I jump into a more serious graphics specification! 
+4. ~~Write a 3D Renderer from the previous step, bonus points for making a mini project here! (⌛ WebGL 3D Mini Project in progress)~~ Started writing a voxel engine renderer instead of a mini project lmfao
+   - Diverting a little in between here by using WebGL to make fun stuff before I jump into a more serious graphics specification!
 5. Create a 3D project with a stronger Graphics API of choice compared to the last step! (WebGPU or OpenGL in my case, if you come from OpenGL or DX11 try to step up to Vulkan or DX12, if you are already up there, try the other counterpart!) 
-   - At the minimum try to render 1 Mesh with lighting. ❌  
+   - At the minimum try to render 1 Mesh with lighting & shadow mapping. ❌  
 
 #### By here we are done technically, & now we just have to be passionate & make something or explore other topics such as:  
 - PBR (Physically Based Rendering).   
@@ -307,10 +307,10 @@ Emoji Keys = ✔️ Completed, ⌛ In Progress, ❌ Not Started
 - This can go on forever but by here we can do whatever as long as we are learning, I personally, will have my next steps below.  
 
 #### Fun Section (How I will be continuing)  
-5. Create a graphics-focused Minecraft Sim with any Graphics API.  
-6. [Extras] Extend the Minecraft Sim to feature the following/any:  
+6. Create a graphics-focused Minecraft Sim with any Graphics API.  (⌛ Project Voxxer 3D in progress, a voxel engine renderer)
+7. [Extras] Extend the Minecraft Sim to feature the following/any:  
 + Lighting & Water Shader
-+ Any Post Processing Effects (Motion blur / Ambient Occlusion / Depth of Field / Bloom / etc.)
-+ Multithreading / GPU-Acceleration <br>
++ Any Post Processing Effects (Motion blur / God Rays / Ambient Occlusion / Depth of Field / Bloom / etc.)
++ Multithreading <br>
 
 <strong><i>Example of an extremely good [Minecraft Sim](https://www.youtube.com/watch?v=M98Th82wC7c) by [Danol](https://github.com/CZDanol)</i></strong>
