@@ -7,7 +7,9 @@ In order to not waste your time, I want to say that graphics is heavy in mathema
 
 Finally, if I make a spelling/grammar mistake feel free to make a pull request.
 
-***🥳 Thank you all for the 25 stars/support achieved on 8/23/2024! 🥳***
+### Stars Appreciation
+- Thank you all for the support & the 25 stars achieved - 8/23/2024! 🥳
+- Thank you all for the 50 stars & Happy late new year! *The graphics journey is challenging, may you overcome all obstacles-Godspeed, my brothers & sisters!*  - 1/6/2025! 🎊
 
 # Contents
 - [Pre-Roadmap advice from me as a learner!](#pregraphics) My honest advice, I suggest you read if you are new to graphics!
